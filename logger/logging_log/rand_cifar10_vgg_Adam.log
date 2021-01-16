@@ -1,0 +1,1335 @@
+
+
+Mon Jan 11 01:09:32 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+ >> # of data @100 || total train time @0.972s || test acc@0.100
+ >> # of data @200 || total train time @0.847s || test acc@0.100
+ >> # of data @300 || total train time @1.331s || test acc@0.100
+ >> # of data @400 || total train time @1.989s || test acc@0.123
+ >> # of data @500 || total train time @1.727s || test acc@0.260
+ >> # of data @600 || total train time @1.914s || test acc@0.299
+ >> # of data @700 || total train time @2.162s || test acc@0.322
+ >> # of data @800 || total train time @2.979s || test acc@0.336
+ >> # of data @900 || total train time @9.955s || test acc@0.391
+ >> # of data @1000 || total train time @2.721s || test acc@0.331
+ >> # of data @1100 || total train time @2.979s || test acc@0.399
+ >> # of data @1200 || total train time @3.986s || test acc@0.427
+ >> # of data @1300 || total train time @4.331s || test acc@0.386
+ >> # of data @1400 || total train time @3.525s || test acc@0.420
+ >> # of data @1500 || total train time @3.757s || test acc@0.400
+ >> # of data @1600 || total train time @4.970s || test acc@0.426
+ >> # of data @1700 || total train time @5.252s || test acc@0.420
+ >> # of data @1800 || total train time @19.029s || test acc@0.417
+ >> # of data @1900 || total train time @5.732s || test acc@0.456
+ >> # of data @2000 || total train time @5.997s || test acc@0.431
+ >> # of data @2100 || total train time @6.274s || test acc@0.429
+ >> # of data @2200 || total train time @10.536s || test acc@0.425
+ >> # of data @2300 || total train time @6.719s || test acc@0.424
+ >> # of data @2400 || total train time @6.990s || test acc@0.436
+ >> # of data @2500 || total train time @7.295s || test acc@0.413
+ >> # of data @2600 || total train time @15.132s || test acc@0.432
+ >> # of data @2700 || total train time @18.880s || test acc@0.439
+ >> # of data @2800 || total train time @9.620s || test acc@0.426
+ >> # of data @2900 || total train time @13.232s || test acc@0.472
+ >> # of data @3000 || total train time @12.006s || test acc@0.473
+ >> # of data @3100 || total train time @14.168s || test acc@0.454
+ >> # of data @3200 || total train time @12.626s || test acc@0.440
+ >> # of data @3300 || total train time @11.103s || test acc@0.444
+ >> # of data @3400 || total train time @11.436s || test acc@0.459
+ >> # of data @3500 || total train time @13.813s || test acc@0.442
+ >> # of data @3600 || total train time @16.267s || test acc@0.465
+ >> # of data @3700 || total train time @14.309s || test acc@0.429
+ >> # of data @3800 || total train time @18.932s || test acc@0.488
+ >> # of data @3900 || total train time @17.376s || test acc@0.473
+ >> # of data @4000 || total train time @24.441s || test acc@0.485
+ >> # of data @4100 || total train time @32.153s || test acc@0.466
+ >> # of data @4200 || total train time @27.784s || test acc@0.489
+ >> # of data @4300 || total train time @21.251s || test acc@0.464
+ >> # of data @4400 || total train time @29.130s || test acc@0.510
+ >> # of data @4500 || total train time @22.475s || test acc@0.501
+ >> # of data @4600 || total train time @27.609s || test acc@0.497
+ >> # of data @4700 || total train time @23.014s || test acc@0.487
+ >> # of data @4800 || total train time @26.196s || test acc@0.529
+ >> # of data @4900 || total train time @26.711s || test acc@0.497
+ >> # of data @5000 || total train time @24.658s || test acc@0.513
+ >> # of data @5100 || total train time @27.647s || test acc@0.483
+ >> # of data @5200 || total train time @28.200s || test acc@0.511
+ >> # of data @5300 || total train time @43.285s || test acc@0.516
+ >> # of data @5400 || total train time @35.209s || test acc@0.515
+ >> # of data @5500 || total train time @29.705s || test acc@0.489
+ >> # of data @5600 || total train time @27.281s || test acc@0.524
+ >> # of data @5700 || total train time @52.456s || test acc@0.508
+ >> # of data @5800 || total train time @40.709s || test acc@0.503
+ >> # of data @5900 || total train time @28.753s || test acc@0.523
+ >> # of data @6000 || total train time @38.795s || test acc@0.526
+ >> # of data @6100 || total train time @46.013s || test acc@0.531
+ >> # of data @6200 || total train time @36.631s || test acc@0.515
+ >> # of data @6300 || total train time @47.398s || test acc@0.542
+ >> # of data @6400 || total train time @37.745s || test acc@0.535
+ >> # of data @6500 || total train time @38.307s || test acc@0.546
+ >> # of data @6600 || total train time @38.961s || test acc@0.537
+ >> # of data @6700 || total train time @35.937s || test acc@0.522
+ >> # of data @6800 || total train time @36.539s || test acc@0.528
+ >> # of data @6900 || total train time @44.342s || test acc@0.526
+ >> # of data @7000 || total train time @44.972s || test acc@0.522
+ >> # of data @7100 || total train time @53.187s || test acc@0.542
+ >> # of data @7200 || total train time @54.061s || test acc@0.553
+ >> # of data @7300 || total train time @50.958s || test acc@0.541
+ >> # of data @7400 || total train time @47.461s || test acc@0.539
+ >> # of data @7500 || total train time @36.078s || test acc@0.540
+ >> # of data @7600 || total train time @40.689s || test acc@0.558
+ >> # of data @7700 || total train time @61.865s || test acc@0.564
+ >> # of data @7800 || total train time @41.688s || test acc@0.526
+ >> # of data @7900 || total train time @71.783s || test acc@0.533
+ >> # of data @8000 || total train time @55.516s || test acc@0.562
+ >> # of data @8100 || total train time @47.434s || test acc@0.557
+ >> # of data @8200 || total train time @83.325s || test acc@0.563
+ >> # of data @8300 || total train time @70.593s || test acc@0.544
+ >> # of data @8400 || total train time @58.051s || test acc@0.529
+ >> # of data @8500 || total train time @54.185s || test acc@0.556
+ >> # of data @8600 || total train time @59.612s || test acc@0.568
+ >> # of data @8700 || total train time @50.804s || test acc@0.547
+ >> # of data @8800 || total train time @70.190s || test acc@0.574
+ >> # of data @8900 || total train time @56.732s || test acc@0.523
+ >> # of data @9000 || total train time @57.483s || test acc@0.558
+ >> # of data @9100 || total train time @67.863s || test acc@0.562
+ >> # of data @9200 || total train time @73.180s || test acc@0.577
+ >> # of data @9300 || total train time @54.186s || test acc@0.571
+ >> # of data @9400 || total train time @69.860s || test acc@0.545
+ >> # of data @9500 || total train time @65.627s || test acc@0.574
+ >> # of data @9600 || total train time @60.980s || test acc@0.579
+ >> # of data @9700 || total train time @87.436s || test acc@0.575
+ >> # of data @9800 || total train time @72.715s || test acc@0.581
+ >> # of data @9900 || total train time @89.305s || test acc@0.570
+ >> # of data @10000 || total train time @63.680s || test acc@0.601
+ >> # of data @10100 || total train time @79.992s || test acc@0.594
+ >> # of data @10200 || total train time @75.397s || test acc@0.540
+ >> # of data @10300 || total train time @70.884s || test acc@0.575
+ >> # of data @10400 || total train time @82.468s || test acc@0.595
+ >> # of data @10500 || total train time @61.221s || test acc@0.572
+ >> # of data @10600 || total train time @78.327s || test acc@0.566
+ >> # of data @10700 || total train time @67.679s || test acc@0.602
+ >> # of data @10800 || total train time @79.822s || test acc@0.589
+ >> # of data @10900 || total train time @92.119s || test acc@0.575
+ >> # of data @11000 || total train time @86.645s || test acc@0.582
+ >> # of data @11100 || total train time @87.794s || test acc@0.578
+ >> # of data @11200 || total train time @70.766s || test acc@0.573
+ >> # of data @11300 || total train time @65.536s || test acc@0.575
+ >> # of data @11400 || total train time @72.245s || test acc@0.572
+ >> # of data @11500 || total train time @84.529s || test acc@0.575
+ >> # of data @11600 || total train time @73.154s || test acc@0.580
+ >> # of data @11700 || total train time @92.499s || test acc@0.603
+ >> # of data @11800 || total train time @80.908s || test acc@0.608
+ >> # of data @11900 || total train time @93.576s || test acc@0.605
+ >> # of data @12000 || total train time @100.717s || test acc@0.598
+ >> # of data @12100 || total train time @89.052s || test acc@0.585
+ >> # of data @12200 || total train time @89.779s || test acc@0.610
+ >> # of data @12300 || total train time @97.243s || test acc@0.617
+ >> # of data @12400 || total train time @84.910s || test acc@0.574
+ >> # of data @12500 || total train time @118.847s || test acc@0.618
+ >> # of data @12600 || total train time @112.999s || test acc@0.580
+ >> # of data @12700 || total train time @87.119s || test acc@0.615
+ >> # of data @12800 || total train time @101.070s || test acc@0.598
+ >> # of data @12900 || total train time @81.573s || test acc@0.578
+ >> # of data @13000 || total train time @102.830s || test acc@0.606
+ >> # of data @13100 || total train time @103.591s || test acc@0.609
+ >> # of data @13200 || total train time @90.603s || test acc@0.616
+ >> # of data @13300 || total train time @97.847s || test acc@0.582
+ >> # of data @13400 || total train time @120.037s || test acc@0.613
+ >> # of data @13500 || total train time @99.279s || test acc@0.590
+ >> # of data @13600 || total train time @143.421s || test acc@0.617
+ >> # of data @13700 || total train time @173.249s || test acc@0.660
+ >> # of data @13800 || total train time @94.373s || test acc@0.585
+ >> # of data @13900 || total train time @102.296s || test acc@0.604
+ >> # of data @14000 || total train time @125.476s || test acc@0.612
+ >> # of data @14100 || total train time @111.395s || test acc@0.609
+ >> # of data @14200 || total train time @104.323s || test acc@0.605
+ >> # of data @14300 || total train time @120.311s || test acc@0.634
+ >> # of data @14400 || total train time @121.162s || test acc@0.617
+ >> # of data @14500 || total train time @137.179s || test acc@0.621
+ >> # of data @14600 || total train time @99.859s || test acc@0.622
+ >> # of data @14700 || total train time @123.211s || test acc@0.617
+ >> # of data @14800 || total train time @116.462s || test acc@0.610
+ >> # of data @14900 || total train time @93.937s || test acc@0.612
+ >> # of data @15000 || total train time @125.885s || test acc@0.619
+ >> # of data @15100 || total train time @126.529s || test acc@0.619
+ >> # of data @15200 || total train time @127.278s || test acc@0.629
+ >> # of data @15300 || total train time @120.187s || test acc@0.609
+ >> # of data @15400 || total train time @121.045s || test acc@0.618
+ >> # of data @15500 || total train time @122.008s || test acc@0.628
+ >> # of data @15600 || total train time @114.245s || test acc@0.610
+ >> # of data @15700 || total train time @139.687s || test acc@0.627
+ >> # of data @15800 || total train time @115.868s || test acc@0.610
+ >> # of data @15900 || total train time @133.314s || test acc@0.634
+ >> # of data @16000 || total train time @142.361s || test acc@0.630
+ >> # of data @16100 || total train time @135.066s || test acc@0.613
+ >> # of data @16200 || total train time @118.871s || test acc@0.633
+ >> # of data @16300 || total train time @162.430s || test acc@0.641
+ >> # of data @16400 || total train time @137.681s || test acc@0.632
+ >> # of data @16500 || total train time @146.782s || test acc@0.638
+ >> # of data @16600 || total train time @164.963s || test acc@0.644
+ >> # of data @16700 || total train time @131.216s || test acc@0.642
+ >> # of data @16800 || total train time @167.159s || test acc@0.645
+ >> # of data @16900 || total train time @159.367s || test acc@0.625
+ >> # of data @17000 || total train time @142.329s || test acc@0.645
+ >> # of data @17100 || total train time @161.177s || test acc@0.637
+ >> # of data @17200 || total train time @171.219s || test acc@0.637
+ >> # of data @17300 || total train time @153.918s || test acc@0.641
+ >> # of data @17400 || total train time @145.348s || test acc@0.641
+ >> # of data @17500 || total train time @155.636s || test acc@0.626
+ >> # of data @17600 || total train time @165.644s || test acc@0.665
+ >> # of data @17700 || total train time @176.029s || test acc@0.641
+ >> # of data @17800 || total train time @130.620s || test acc@0.631
+ >> # of data @17900 || total train time @168.490s || test acc@0.655
+ >> # of data @18000 || total train time @169.434s || test acc@0.644
+ >> # of data @18100 || total train time @151.573s || test acc@0.644
+ >> # of data @18200 || total train time @133.519s || test acc@0.629
+ >> # of data @18300 || total train time @152.935s || test acc@0.649
+ >> # of data @18400 || total train time @163.486s || test acc@0.648
+ >> # of data @18500 || total train time @154.534s || test acc@0.663
+ >> # of data @18600 || total train time @194.453s || test acc@0.643
+ >> # of data @18700 || total train time @186.031s || test acc@0.651
+ >> # of data @18800 || total train time @137.366s || test acc@0.649
+ >> # of data @18900 || total train time @147.938s || test acc@0.637
+ >> # of data @19000 || total train time @188.499s || test acc@0.655
+ >> # of data @19100 || total train time @169.708s || test acc@0.653
+ >> # of data @19200 || total train time @160.231s || test acc@0.652
+ >> # of data @19300 || total train time @151.134s || test acc@0.650
+ >> # of data @19400 || total train time @151.998s || test acc@0.654
+ >> # of data @19500 || total train time @163.331s || test acc@0.666
+ >> # of data @19600 || total train time @163.751s || test acc@0.651
+ >> # of data @19700 || total train time @164.286s || test acc@0.656
+ >> # of data @19800 || total train time @175.878s || test acc@0.660
+ >> # of data @19900 || total train time @176.619s || test acc@0.670
+ >> # of data @20000 || total train time @156.984s || test acc@0.664
+ >> # of data @20100 || total train time @147.030s || test acc@0.670
+ >> # of data @20200 || total train time @179.201s || test acc@0.665
+ >> # of data @20300 || total train time @158.952s || test acc@0.657
+ >> # of data @20400 || total train time @159.475s || test acc@0.664
+ >> # of data @20500 || total train time @181.804s || test acc@0.662
+ >> # of data @20600 || total train time @193.361s || test acc@0.665
+ >> # of data @20700 || total train time @162.160s || test acc@0.652
+ >> # of data @20800 || total train time @162.931s || test acc@0.663
+ >> # of data @20900 || total train time @185.491s || test acc@0.662
+
+
+Mon Jan 11 14:21:33 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+
+
+Mon Jan 11 14:21:55 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+
+
+Mon Jan 11 14:22:02 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.05
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+
+
+Mon Jan 11 14:23:15 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.05
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+
+
+Mon Jan 11 14:25:22 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.05
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+
+
+Mon Jan 11 14:25:59 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.05
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+
+
+Mon Jan 11 14:27:02 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.05
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+ >> # of data @100 || total train time @0.990s || test acc@0.100
+
+
+Tue Jan 12 02:14:01 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.05
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+ >> # of data @100 || total train time @1.162s || test acc@0.100
+ >> # of data @200 || total train time @1.009s || test acc@0.100
+ >> # of data @300 || total train time @1.887s || test acc@0.100
+
+
+Tue Jan 12 02:21:06 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.05
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+ >> # of data @100 || total train time @1.274s || test acc@0.100
+ >> # of data @200 || total train time @1.013s || test acc@0.100
+ >> # of data @300 || total train time @1.893s || test acc@0.100
+ >> # of data @400 || total train time @2.817s || test acc@0.209
+ >> # of data @500 || total train time @2.604s || test acc@0.287
+ >> # of data @600 || total train time @2.612s || test acc@0.331
+ >> # of data @700 || total train time @2.752s || test acc@0.351
+ >> # of data @800 || total train time @3.794s || test acc@0.380
+ >> # of data @900 || total train time @14.248s || test acc@0.347
+ >> # of data @1000 || total train time @3.763s || test acc@0.353
+ >> # of data @1100 || total train time @4.038s || test acc@0.370
+ >> # of data @1200 || total train time @5.564s || test acc@0.429
+ >> # of data @1300 || total train time @5.871s || test acc@0.409
+ >> # of data @1400 || total train time @4.665s || test acc@0.421
+ >> # of data @1500 || total train time @5.584s || test acc@0.410
+ >> # of data @1600 || total train time @7.120s || test acc@0.417
+ >> # of data @1700 || total train time @7.399s || test acc@0.434
+ >> # of data @1800 || total train time @20.094s || test acc@0.432
+ >> # of data @1900 || total train time @6.369s || test acc@0.417
+ >> # of data @2000 || total train time @6.726s || test acc@0.444
+ >> # of data @2100 || total train time @8.877s || test acc@0.413
+ >> # of data @2200 || total train time @11.322s || test acc@0.399
+ >> # of data @2300 || total train time @9.577s || test acc@0.436
+ >> # of data @2400 || total train time @10.112s || test acc@0.449
+ >> # of data @2500 || total train time @12.661s || test acc@0.464
+ >> # of data @2600 || total train time @22.013s || test acc@0.460
+ >> # of data @2700 || total train time @18.047s || test acc@0.474
+ >> # of data @2800 || total train time @13.829s || test acc@0.469
+ >> # of data @2900 || total train time @13.969s || test acc@0.463
+ >> # of data @3000 || total train time @17.319s || test acc@0.435
+ >> # of data @3100 || total train time @23.212s || test acc@0.459
+ >> # of data @3200 || total train time @15.921s || test acc@0.469
+ >> # of data @3300 || total train time @16.272s || test acc@0.472
+ >> # of data @3400 || total train time @19.569s || test acc@0.470
+ >> # of data @3500 || total train time @25.610s || test acc@0.480
+ >> # of data @3600 || total train time @32.561s || test acc@0.481
+ >> # of data @3700 || total train time @26.972s || test acc@0.455
+ >> # of data @3800 || total train time @28.008s || test acc@0.429
+ >> # of data @3900 || total train time @34.933s || test acc@0.460
+ >> # of data @4000 || total train time @30.182s || test acc@0.509
+ >> # of data @4100 || total train time @39.690s || test acc@0.513
+ >> # of data @4200 || total train time @30.575s || test acc@0.502
+ >> # of data @4300 || total train time @31.552s || test acc@0.476
+ >> # of data @4400 || total train time @31.851s || test acc@0.509
+ >> # of data @4500 || total train time @28.161s || test acc@0.517
+ >> # of data @4600 || total train time @33.420s || test acc@0.484
+ >> # of data @4700 || total train time @26.355s || test acc@0.489
+ >> # of data @4800 || total train time @34.396s || test acc@0.498
+ >> # of data @4900 || total train time @39.050s || test acc@0.485
+ >> # of data @5000 || total train time @31.614s || test acc@0.489
+ >> # of data @5100 || total train time @32.680s || test acc@0.515
+ >> # of data @5200 || total train time @33.143s || test acc@0.481
+ >> # of data @5300 || total train time @38.304s || test acc@0.525
+ >> # of data @5400 || total train time @42.880s || test acc@0.537
+ >> # of data @5500 || total train time @43.834s || test acc@0.511
+ >> # of data @5600 || total train time @53.161s || test acc@0.498
+ >> # of data @5700 || total train time @50.339s || test acc@0.512
+ >> # of data @5800 || total train time @41.426s || test acc@0.518
+ >> # of data @5900 || total train time @61.032s || test acc@0.535
+ >> # of data @6000 || total train time @70.544s || test acc@0.524
+ >> # of data @6100 || total train time @47.732s || test acc@0.544
+ >> # of data @6200 || total train time @53.665s || test acc@0.512
+ >> # of data @6300 || total train time @65.252s || test acc@0.543
+ >> # of data @6400 || total train time @65.227s || test acc@0.557
+ >> # of data @6500 || total train time @55.858s || test acc@0.531
+ >> # of data @6600 || total train time @62.488s || test acc@0.541
+ >> # of data @6700 || total train time @57.748s || test acc@0.538
+ >> # of data @6800 || total train time @48.663s || test acc@0.521
+ >> # of data @6900 || total train time @64.864s || test acc@0.533
+ >> # of data @7000 || total train time @71.496s || test acc@0.550
+ >> # of data @7100 || total train time @78.330s || test acc@0.536
+ >> # of data @7200 || total train time @56.046s || test acc@0.524
+ >> # of data @7300 || total train time @116.106s || test acc@0.591
+ >> # of data @7400 || total train time @58.736s || test acc@0.525
+ >> # of data @7500 || total train time @70.564s || test acc@0.567
+ >> # of data @7600 || total train time @72.045s || test acc@0.525
+ >> # of data @7700 || total train time @71.961s || test acc@0.546
+ >> # of data @7800 || total train time @73.088s || test acc@0.550
+ >> # of data @7900 || total train time @68.405s || test acc@0.545
+ >> # of data @8000 || total train time @69.082s || test acc@0.550
+ >> # of data @8100 || total train time @82.727s || test acc@0.588
+ >> # of data @8200 || total train time @70.851s || test acc@0.529
+ >> # of data @8300 || total train time @70.951s || test acc@0.568
+ >> # of data @8400 || total train time @91.702s || test acc@0.554
+ >> # of data @8500 || total train time @79.967s || test acc@0.545
+ >> # of data @8600 || total train time @87.139s || test acc@0.572
+ >> # of data @8700 || total train time @88.203s || test acc@0.569
+ >> # of data @8800 || total train time @81.567s || test acc@0.568
+ >> # of data @8900 || total train time @76.175s || test acc@0.558
+ >> # of data @9000 || total train time @119.395s || test acc@0.580
+ >> # of data @9100 || total train time @92.446s || test acc@0.550
+ >> # of data @9200 || total train time @101.022s || test acc@0.568
+ >> # of data @9300 || total train time @93.759s || test acc@0.577
+ >> # of data @9400 || total train time @73.229s || test acc@0.549
+ >> # of data @9500 || total train time @82.787s || test acc@0.573
+ >> # of data @9600 || total train time @104.966s || test acc@0.576
+ >> # of data @9700 || total train time @120.260s || test acc@0.574
+ >> # of data @9800 || total train time @107.535s || test acc@0.536
+ >> # of data @9900 || total train time @108.974s || test acc@0.558
+ >> # of data @10000 || total train time @109.716s || test acc@0.601
+ >> # of data @10100 || total train time @109.843s || test acc@0.576
+ >> # of data @10200 || total train time @95.276s || test acc@0.586
+ >> # of data @10300 || total train time @112.225s || test acc@0.578
+ >> # of data @10400 || total train time @129.509s || test acc@0.585
+ >> # of data @10500 || total train time @123.401s || test acc@0.582
+ >> # of data @10600 || total train time @99.251s || test acc@0.582
+ >> # of data @10700 || total train time @106.871s || test acc@0.595
+ >> # of data @10800 || total train time @125.994s || test acc@0.585
+ >> # of data @10900 || total train time @128.545s || test acc@0.598
+ >> # of data @11000 || total train time @127.464s || test acc@0.614
+ >> # of data @11100 || total train time @146.662s || test acc@0.613
+ >> # of data @11200 || total train time @113.308s || test acc@0.577
+ >> # of data @11300 || total train time @130.749s || test acc@0.596
+ >> # of data @11400 || total train time @133.719s || test acc@0.601
+ >> # of data @11500 || total train time @107.496s || test acc@0.595
+ >> # of data @11600 || total train time @142.490s || test acc@0.613
+ >> # of data @11700 || total train time @127.238s || test acc@0.573
+ >> # of data @11800 || total train time @165.101s || test acc@0.611
+ >> # of data @11900 || total train time @120.280s || test acc@0.619
+ >> # of data @12000 || total train time @120.676s || test acc@0.586
+ >> # of data @12100 || total train time @139.660s || test acc@0.591
+ >> # of data @12200 || total train time @114.512s || test acc@0.614
+ >> # of data @12300 || total train time @115.517s || test acc@0.616
+ >> # of data @12400 || total train time @142.909s || test acc@0.582
+ >> # of data @12500 || total train time @175.555s || test acc@0.616
+ >> # of data @12600 || total train time @136.956s || test acc@0.610
+ >> # of data @12700 || total train time @168.716s || test acc@0.620
+ >> # of data @12800 || total train time @118.643s || test acc@0.618
+ >> # of data @12900 || total train time @159.325s || test acc@0.603
+ >> # of data @13000 || total train time @140.908s || test acc@0.611
+ >> # of data @13100 || total train time @142.347s || test acc@0.591
+ >> # of data @13200 || total train time @143.373s || test acc@0.605
+ >> # of data @13300 || total train time @154.811s || test acc@0.619
+ >> # of data @13400 || total train time @166.334s || test acc@0.611
+ >> # of data @13500 || total train time @146.457s || test acc@0.621
+ >> # of data @13600 || total train time @189.542s || test acc@0.610
+ >> # of data @13700 || total train time @169.938s || test acc@0.631
+ >> # of data @13800 || total train time @181.560s || test acc@0.622
+ >> # of data @13900 || total train time @192.629s || test acc@0.614
+ >> # of data @14000 || total train time @129.631s || test acc@0.617
+ >> # of data @14100 || total train time @120.491s || test acc@0.617
+ >> # of data @14200 || total train time @142.687s || test acc@0.619
+ >> # of data @14300 || total train time @176.589s || test acc@0.620
+ >> # of data @14400 || total train time @178.721s || test acc@0.606
+ >> # of data @14500 || total train time @179.109s || test acc@0.632
+ >> # of data @14600 || total train time @168.542s || test acc@0.629
+ >> # of data @14700 || total train time @146.829s || test acc@0.611
+ >> # of data @14800 || total train time @160.469s || test acc@0.614
+ >> # of data @14900 || total train time @150.325s || test acc@0.621
+ >> # of data @15000 || total train time @172.971s || test acc@0.626
+ >> # of data @15100 || total train time @199.121s || test acc@0.627
+ >> # of data @15200 || total train time @174.358s || test acc@0.629
+ >> # of data @15300 || total train time @189.192s || test acc@0.642
+ >> # of data @15400 || total train time @165.889s || test acc@0.626
+ >> # of data @15500 || total train time @168.811s || test acc@0.624
+ >> # of data @15600 || total train time @179.980s || test acc@0.631
+ >> # of data @15700 || total train time @206.392s || test acc@0.614
+ >> # of data @15800 || total train time @157.713s || test acc@0.619
+ >> # of data @15900 || total train time @184.625s || test acc@0.642
+ >> # of data @16000 || total train time @209.947s || test acc@0.646
+ >> # of data @16100 || total train time @211.958s || test acc@0.637
+ >> # of data @16200 || total train time @211.429s || test acc@0.635
+ >> # of data @16300 || total train time @199.696s || test acc@0.630
+ >> # of data @16400 || total train time @179.519s || test acc@0.643
+ >> # of data @16500 || total train time @203.278s || test acc@0.648
+ >> # of data @16600 || total train time @191.258s || test acc@0.634
+ >> # of data @16700 || total train time @190.957s || test acc@0.620
+ >> # of data @16800 || total train time @194.989s || test acc@0.639
+ >> # of data @16900 || total train time @156.316s || test acc@0.619
+ >> # of data @17000 || total train time @225.588s || test acc@0.656
+ >> # of data @17100 || total train time @223.722s || test acc@0.651
+ >> # of data @17200 || total train time @212.903s || test acc@0.634
+ >> # of data @17300 || total train time @228.049s || test acc@0.637
+ >> # of data @17400 || total train time @254.579s || test acc@0.657
+ >> # of data @17500 || total train time @216.849s || test acc@0.640
+ >> # of data @17600 || total train time @217.606s || test acc@0.656
+ >> # of data @17700 || total train time @204.980s || test acc@0.645
+ >> # of data @17800 || total train time @220.872s || test acc@0.636
+ >> # of data @17900 || total train time @207.746s || test acc@0.646
+ >> # of data @18000 || total train time @236.335s || test acc@0.652
+ >> # of data @18100 || total train time @221.856s || test acc@0.656
+ >> # of data @18200 || total train time @226.135s || test acc@0.643
+ >> # of data @18300 || total train time @196.842s || test acc@0.648
+ >> # of data @18400 || total train time @212.180s || test acc@0.640
+ >> # of data @18500 || total train time @200.438s || test acc@0.655
+ >> # of data @18600 || total train time @229.275s || test acc@0.655
+ >> # of data @18700 || total train time @188.864s || test acc@0.624
+ >> # of data @18800 || total train time @231.574s || test acc@0.666
+ >> # of data @18900 || total train time @231.971s || test acc@0.655
+ >> # of data @19000 || total train time @278.921s || test acc@0.661
+ >> # of data @19100 || total train time @221.840s || test acc@0.659
+ >> # of data @19200 || total train time @235.633s || test acc@0.661
+ >> # of data @19300 || total train time @221.114s || test acc@0.658
+ >> # of data @19400 || total train time @178.824s || test acc@0.660
+ >> # of data @19500 || total train time @271.103s || test acc@0.669
+ >> # of data @19600 || total train time @225.766s || test acc@0.654
+ >> # of data @19700 || total train time @227.710s || test acc@0.675
+ >> # of data @19800 || total train time @227.913s || test acc@0.650
+ >> # of data @19900 || total train time @213.653s || test acc@0.661
+ >> # of data @20000 || total train time @261.697s || test acc@0.673
+ >> # of data @20100 || total train time @277.599s || test acc@0.660
+ >> # of data @20200 || total train time @248.973s || test acc@0.660
+ >> # of data @20300 || total train time @234.728s || test acc@0.657
+ >> # of data @20400 || total train time @237.511s || test acc@0.670
+ >> # of data @20500 || total train time @237.763s || test acc@0.643
+ >> # of data @20600 || total train time @302.368s || test acc@0.672
+ >> # of data @20700 || total train time @274.707s || test acc@0.657
+ >> # of data @20800 || total train time @371.634s || test acc@0.686
+ >> # of data @20900 || total train time @369.755s || test acc@0.674
+ >> # of data @21000 || total train time @421.029s || test acc@0.695
+ >> # of data @21100 || total train time @421.975s || test acc@0.661
+ >> # of data @21200 || total train time @401.576s || test acc@0.669
+ >> # of data @21300 || total train time @426.391s || test acc@0.649
+ >> # of data @21400 || total train time @380.353s || test acc@0.662
+ >> # of data @21500 || total train time @406.129s || test acc@0.663
+ >> # of data @21600 || total train time @432.193s || test acc@0.659
+ >> # of data @21700 || total train time @457.434s || test acc@0.695
+ >> # of data @21800 || total train time @364.594s || test acc@0.682
+ >> # of data @21900 || total train time @365.464s || test acc@0.665
+ >> # of data @22000 || total train time @415.732s || test acc@0.679
+ >> # of data @22100 || total train time @369.777s || test acc@0.662
+ >> # of data @22200 || total train time @394.798s || test acc@0.677
+ >> # of data @22300 || total train time @396.978s || test acc@0.688
+ >> # of data @22400 || total train time @423.719s || test acc@0.678
+ >> # of data @22500 || total train time @430.352s || test acc@0.659
+ >> # of data @22600 || total train time @390.971s || test acc@0.694
+ >> # of data @22700 || total train time @406.104s || test acc@0.681
+ >> # of data @22800 || total train time @358.951s || test acc@0.673
+ >> # of data @22900 || total train time @455.360s || test acc@0.674
+ >> # of data @23000 || total train time @252.068s || test acc@0.674
+ >> # of data @23100 || total train time @207.573s || test acc@0.700
+ >> # of data @23200 || total train time @221.375s || test acc@0.687
+ >> # of data @23300 || total train time @185.788s || test acc@0.683
+ >> # of data @23400 || total train time @211.081s || test acc@0.673
+ >> # of data @23500 || total train time @212.128s || test acc@0.687
+ >> # of data @23600 || total train time @226.198s || test acc@0.694
+ >> # of data @23700 || total train time @201.963s || test acc@0.670
+ >> # of data @23800 || total train time @214.898s || test acc@0.679
+ >> # of data @23900 || total train time @216.345s || test acc@0.683
+ >> # of data @24000 || total train time @242.834s || test acc@0.689
+ >> # of data @24100 || total train time @218.444s || test acc@0.690
+ >> # of data @24200 || total train time @232.755s || test acc@0.700
+ >> # of data @24300 || total train time @219.835s || test acc@0.683
+ >> # of data @24400 || total train time @207.505s || test acc@0.680
+ >> # of data @24500 || total train time @222.605s || test acc@0.680
+ >> # of data @24600 || total train time @235.981s || test acc@0.686
+ >> # of data @24700 || total train time @223.725s || test acc@0.679
+ >> # of data @24800 || total train time @211.622s || test acc@0.682
+ >> # of data @24900 || total train time @212.458s || test acc@0.696
+ >> # of data @25000 || total train time @214.020s || test acc@0.672
+ >> # of data @25100 || total train time @202.438s || test acc@0.687
+ >> # of data @25200 || total train time @228.381s || test acc@0.703
+ >> # of data @25300 || total train time @229.351s || test acc@0.677
+ >> # of data @25400 || total train time @216.473s || test acc@0.698
+ >> # of data @25500 || total train time @258.522s || test acc@0.688
+ >> # of data @25600 || total train time @218.337s || test acc@0.692
+ >> # of data @25700 || total train time @233.040s || test acc@0.684
+ >> # of data @25800 || total train time @261.393s || test acc@0.684
+ >> # of data @25900 || total train time @234.543s || test acc@0.693
+ >> # of data @26000 || total train time @208.155s || test acc@0.686
+ >> # of data @26100 || total train time @264.204s || test acc@0.683
+ >> # of data @26200 || total train time @209.772s || test acc@0.689
+ >> # of data @26300 || total train time @211.430s || test acc@0.681
+ >> # of data @26400 || total train time @239.096s || test acc@0.660
+ >> # of data @26500 || total train time @198.488s || test acc@0.681
+ >> # of data @26600 || total train time @227.162s || test acc@0.683
+ >> # of data @26700 || total train time @241.875s || test acc@0.692
+ >> # of data @26800 || total train time @257.126s || test acc@0.705
+ >> # of data @26900 || total train time @215.470s || test acc@0.685
+ >> # of data @27000 || total train time @230.151s || test acc@0.687
+ >> # of data @27100 || total train time @260.276s || test acc@0.688
+ >> # of data @27200 || total train time @203.826s || test acc@0.699
+ >> # of data @27300 || total train time @277.379s || test acc@0.691
+ >> # of data @27400 || total train time @233.845s || test acc@0.689
+ >> # of data @27500 || total train time @234.242s || test acc@0.690
+ >> # of data @27600 || total train time @264.255s || test acc@0.694
+ >> # of data @27700 || total train time @236.154s || test acc@0.690
+ >> # of data @27800 || total train time @267.021s || test acc@0.697
+ >> # of data @27900 || total train time @237.749s || test acc@0.698
+ >> # of data @28000 || total train time @253.662s || test acc@0.691
+ >> # of data @28100 || total train time @269.402s || test acc@0.699
+ >> # of data @28200 || total train time @256.052s || test acc@0.696
+ >> # of data @28300 || total train time @226.302s || test acc@0.688
+ >> # of data @28400 || total train time @271.051s || test acc@0.686
+ >> # of data @28500 || total train time @243.125s || test acc@0.683
+ >> # of data @28600 || total train time @288.713s || test acc@0.703
+ >> # of data @28700 || total train time @244.491s || test acc@0.695
+ >> # of data @28800 || total train time @260.874s || test acc@0.679
+ >> # of data @28900 || total train time @261.374s || test acc@0.701
+ >> # of data @29000 || total train time @246.841s || test acc@0.700
+ >> # of data @29100 || total train time @263.929s || test acc@0.695
+ >> # of data @29200 || total train time @232.956s || test acc@0.695
+ >> # of data @29300 || total train time @265.302s || test acc@0.701
+ >> # of data @29400 || total train time @265.505s || test acc@0.703
+ >> # of data @29500 || total train time @282.215s || test acc@0.695
+ >> # of data @29600 || total train time @267.021s || test acc@0.706
+ >> # of data @29700 || total train time @283.807s || test acc@0.711
+ >> # of data @29800 || total train time @285.196s || test acc@0.716
+ >> # of data @29900 || total train time @240.414s || test acc@0.707
+ >> # of data @30000 || total train time @286.938s || test acc@0.707
+ >> # of data @30100 || total train time @255.983s || test acc@0.698
+ >> # of data @30200 || total train time @240.346s || test acc@0.705
+ >> # of data @30300 || total train time @274.943s || test acc@0.701
+ >> # of data @30400 || total train time @258.577s || test acc@0.696
+ >> # of data @30500 || total train time @259.163s || test acc@0.710
+ >> # of data @30600 || total train time @243.921s || test acc@0.684
+ >> # of data @30700 || total train time @294.789s || test acc@0.706
+ >> # of data @30800 || total train time @279.640s || test acc@0.691
+ >> # of data @30900 || total train time @262.822s || test acc@0.702
+ >> # of data @31000 || total train time @280.160s || test acc@0.702
+ >> # of data @31100 || total train time @297.714s || test acc@0.699
+ >> # of data @31200 || total train time @282.433s || test acc@0.712
+ >> # of data @31300 || total train time @267.515s || test acc@0.701
+ >> # of data @31400 || total train time @251.418s || test acc@0.702
+ >> # of data @31500 || total train time @251.481s || test acc@0.708
+ >> # of data @31600 || total train time @302.677s || test acc@0.708
+ >> # of data @31700 || total train time @320.589s || test acc@0.693
+ >> # of data @31800 || total train time @304.764s || test acc@0.708
+ >> # of data @31900 || total train time @325.509s || test acc@0.708
+ >> # of data @32000 || total train time @357.281s || test acc@0.698
+ >> # of data @32100 || total train time @290.195s || test acc@0.717
+ >> # of data @32200 || total train time @325.994s || test acc@0.714
+ >> # of data @32300 || total train time @309.439s || test acc@0.712
+ >> # of data @32400 || total train time @327.928s || test acc@0.691
+ >> # of data @32500 || total train time @311.338s || test acc@0.711
+ >> # of data @32600 || total train time @295.729s || test acc@0.698
+ >> # of data @32700 || total train time @331.236s || test acc@0.704
+ >> # of data @32800 || total train time @280.809s || test acc@0.715
+ >> # of data @32900 || total train time @298.728s || test acc@0.714
+ >> # of data @33000 || total train time @299.580s || test acc@0.716
+ >> # of data @33100 || total train time @300.296s || test acc@0.725
+ >> # of data @33200 || total train time @337.905s || test acc@0.699
+ >> # of data @33300 || total train time @286.361s || test acc@0.692
+ >> # of data @33400 || total train time @285.690s || test acc@0.702
+ >> # of data @33500 || total train time @285.256s || test acc@0.711
+ >> # of data @33600 || total train time @304.071s || test acc@0.727
+ >> # of data @33700 || total train time @323.228s || test acc@0.703
+ >> # of data @33800 || total train time @288.754s || test acc@0.703
+ >> # of data @33900 || total train time @271.403s || test acc@0.703
+ >> # of data @34000 || total train time @326.521s || test acc@0.715
+ >> # of data @34100 || total train time @328.102s || test acc@0.702
+ >> # of data @34200 || total train time @346.243s || test acc@0.720
+ >> # of data @34300 || total train time @310.560s || test acc@0.712
+ >> # of data @34400 || total train time @311.919s || test acc@0.712
+ >> # of data @34500 || total train time @295.215s || test acc@0.721
+ >> # of data @34600 || total train time @313.672s || test acc@0.722
+ >> # of data @34700 || total train time @314.306s || test acc@0.705
+ >> # of data @34800 || total train time @353.117s || test acc@0.711
+ >> # of data @34900 || total train time @353.315s || test acc@0.718
+ >> # of data @35000 || total train time @335.643s || test acc@0.717
+ >> # of data @35100 || total train time @355.531s || test acc@0.717
+ >> # of data @35200 || total train time @319.087s || test acc@0.709
+ >> # of data @35300 || total train time @301.003s || test acc@0.718
+ >> # of data @35400 || total train time @341.467s || test acc@0.723
+ >> # of data @35500 || total train time @264.423s || test acc@0.719
+ >> # of data @35600 || total train time @323.101s || test acc@0.717
+ >> # of data @35700 || total train time @361.558s || test acc@0.712
+ >> # of data @35800 || total train time @324.971s || test acc@0.713
+ >> # of data @35900 || total train time @326.894s || test acc@0.724
+ >> # of data @36000 || total train time @365.984s || test acc@0.722
+ >> # of data @36100 || total train time @424.944s || test acc@0.723
+ >> # of data @36200 || total train time @347.199s || test acc@0.720
+ >> # of data @36300 || total train time @367.564s || test acc@0.729
+ >> # of data @36400 || total train time @330.266s || test acc@0.719
+ >> # of data @36500 || total train time @350.859s || test acc@0.700
+ >> # of data @36600 || total train time @370.008s || test acc@0.702
+ >> # of data @36700 || total train time @332.530s || test acc@0.714
+ >> # of data @36800 || total train time @373.148s || test acc@0.721
+ >> # of data @36900 || total train time @333.792s || test acc@0.722
+ >> # of data @37000 || total train time @356.023s || test acc@0.729
+ >> # of data @37100 || total train time @336.269s || test acc@0.718
+ >> # of data @37200 || total train time @356.638s || test acc@0.721
+ >> # of data @37300 || total train time @319.481s || test acc@0.709
+ >> # of data @37400 || total train time @360.507s || test acc@0.727
+ >> # of data @37500 || total train time @320.139s || test acc@0.722
+ >> # of data @37600 || total train time @341.128s || test acc@0.728
+ >> # of data @37700 || total train time @361.730s || test acc@0.724
+ >> # of data @37800 || total train time @362.827s || test acc@0.722
+ >> # of data @37900 || total train time @364.614s || test acc@0.721
+ >> # of data @38000 || total train time @366.335s || test acc@0.708
+ >> # of data @38100 || total train time @346.242s || test acc@0.735
+ >> # of data @38200 || total train time @325.485s || test acc@0.721
+ >> # of data @38300 || total train time @347.132s || test acc@0.711
+ >> # of data @38400 || total train time @348.212s || test acc@0.726
+ >> # of data @38500 || total train time @369.396s || test acc@0.722
+ >> # of data @38600 || total train time @392.965s || test acc@0.718
+ >> # of data @38700 || total train time @352.828s || test acc@0.722
+ >> # of data @38800 || total train time @394.188s || test acc@0.727
+ >> # of data @38900 || total train time @353.503s || test acc@0.726
+ >> # of data @39000 || total train time @332.765s || test acc@0.738
+ >> # of data @39100 || total train time @375.894s || test acc@0.731
+ >> # of data @39200 || total train time @376.892s || test acc@0.725
+ >> # of data @39300 || total train time @376.587s || test acc@0.709
+ >> # of data @39400 || total train time @357.339s || test acc@0.731
+ >> # of data @39500 || total train time @379.852s || test acc@0.708
+ >> # of data @39600 || total train time @358.868s || test acc@0.721
+ >> # of data @39700 || total train time @338.515s || test acc@0.719
+ >> # of data @39800 || total train time @317.723s || test acc@0.715
+ >> # of data @39900 || total train time @382.905s || test acc@0.729
+ >> # of data @40000 || total train time @384.087s || test acc@0.727
+ >> # of data @40100 || total train time @385.009s || test acc@0.731
+ >> # of data @40200 || total train time @342.131s || test acc@0.721
+ >> # of data @40300 || total train time @406.991s || test acc@0.739
+ >> # of data @40400 || total train time @365.046s || test acc@0.734
+ >> # of data @40500 || total train time @387.860s || test acc@0.737
+ >> # of data @40600 || total train time @432.667s || test acc@0.734
+ >> # of data @40700 || total train time @412.298s || test acc@0.729
+ >> # of data @40800 || total train time @368.913s || test acc@0.730
+ >> # of data @40900 || total train time @348.245s || test acc@0.728
+ >> # of data @41000 || total train time @370.239s || test acc@0.736
+ >> # of data @41100 || total train time @415.606s || test acc@0.717
+ >> # of data @41200 || total train time @372.668s || test acc@0.724
+ >> # of data @41300 || total train time @417.116s || test acc@0.723
+ >> # of data @41400 || total train time @374.815s || test acc@0.732
+ >> # of data @41500 || total train time @376.614s || test acc@0.733
+ >> # of data @41600 || total train time @376.196s || test acc@0.727
+ >> # of data @41700 || total train time @375.920s || test acc@0.724
+ >> # of data @41800 || total train time @398.581s || test acc@0.716
+ >> # of data @41900 || total train time @378.737s || test acc@0.719
+ >> # of data @42000 || total train time @402.761s || test acc@0.725
+ >> # of data @42100 || total train time @402.665s || test acc@0.713
+
+
+Wed Jan 13 04:03:00 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+single gpu
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.05
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+ >> # of data @100 || total train time @1.166s || test acc@0.100
+
+
+Wed Jan 13 04:03:39 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+single gpu
+
+
+Wed Jan 13 04:04:28 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+single gpu
+
+
+Wed Jan 13 04:05:12 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+single gpu
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.05
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+
+
+Wed Jan 13 04:06:06 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+using multiple gpus
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.05
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+ >> # of data @100 || total train time @7.734s || test acc@0.100
+ >> # of data @200 || total train time @2.068s || test acc@0.100
+ >> # of data @300 || total train time @2.530s || test acc@0.102
+ >> # of data @400 || total train time @5.157s || test acc@0.267
+ >> # of data @500 || total train time @3.623s || test acc@0.299
+ >> # of data @600 || total train time @3.154s || test acc@0.336
+ >> # of data @700 || total train time @4.362s || test acc@0.347
+ >> # of data @800 || total train time @4.766s || test acc@0.364
+ >> # of data @900 || total train time @26.602s || test acc@0.359
+ >> # of data @1000 || total train time @5.119s || test acc@0.383
+ >> # of data @1100 || total train time @5.459s || test acc@0.384
+ >> # of data @1200 || total train time @5.887s || test acc@0.420
+ >> # of data @1300 || total train time @22.956s || test acc@0.367
+ >> # of data @1400 || total train time @6.387s || test acc@0.404
+ >> # of data @1500 || total train time @6.918s || test acc@0.434
+ >> # of data @1600 || total train time @7.126s || test acc@0.409
+ >> # of data @1700 || total train time @8.858s || test acc@0.411
+ >> # of data @1800 || total train time @31.713s || test acc@0.406
+ >> # of data @1900 || total train time @7.966s || test acc@0.403
+ >> # of data @2000 || total train time @9.874s || test acc@0.427
+ >> # of data @2100 || total train time @19.246s || test acc@0.433
+ >> # of data @2200 || total train time @25.583s || test acc@0.418
+ >> # of data @2300 || total train time @11.253s || test acc@0.427
+ >> # of data @2400 || total train time @13.606s || test acc@0.432
+ >> # of data @2500 || total train time @15.974s || test acc@0.433
+ >> # of data @2600 || total train time @14.526s || test acc@0.435
+ >> # of data @2700 || total train time @51.280s || test acc@0.473
+ >> # of data @2800 || total train time @19.393s || test acc@0.430
+ >> # of data @2900 || total train time @26.904s || test acc@0.455
+ >> # of data @3000 || total train time @18.247s || test acc@0.458
+ >> # of data @3100 || total train time @30.769s || test acc@0.501
+ >> # of data @3200 || total train time @16.679s || test acc@0.392
+ >> # of data @3300 || total train time @34.194s || test acc@0.458
+ >> # of data @3400 || total train time @28.012s || test acc@0.462
+ >> # of data @3500 || total train time @31.305s || test acc@0.476
+ >> # of data @3600 || total train time @35.158s || test acc@0.485
+ >> # of data @3700 || total train time @37.791s || test acc@0.497
+ >> # of data @3800 || total train time @35.699s || test acc@0.492
+ >> # of data @3900 || total train time @37.118s || test acc@0.478
+ >> # of data @4000 || total train time @49.712s || test acc@0.490
+ >> # of data @4100 || total train time @44.767s || test acc@0.467
+ >> # of data @4200 || total train time @45.295s || test acc@0.495
+ >> # of data @4300 || total train time @49.686s || test acc@0.530
+ >> # of data @4400 || total train time @38.315s || test acc@0.519
+ >> # of data @4500 || total train time @52.110s || test acc@0.488
+ >> # of data @4600 || total train time @49.234s || test acc@0.513
+ >> # of data @4700 || total train time @43.063s || test acc@0.487
+ >> # of data @4800 || total train time @41.215s || test acc@0.526
+ >> # of data @4900 || total train time @52.227s || test acc@0.535
+ >> # of data @5000 || total train time @103.270s || test acc@0.552
+ >> # of data @5100 || total train time @43.168s || test acc@0.505
+ >> # of data @5200 || total train time @54.999s || test acc@0.529
+ >> # of data @5300 || total train time @67.315s || test acc@0.559
+ >> # of data @5400 || total train time @65.213s || test acc@0.517
+ >> # of data @5500 || total train time @53.459s || test acc@0.511
+ >> # of data @5600 || total train time @42.640s || test acc@0.520
+ >> # of data @5700 || total train time @59.566s || test acc@0.533
+ >> # of data @5800 || total train time @52.301s || test acc@0.536
+ >> # of data @5900 || total train time @74.021s || test acc@0.524
+ >> # of data @6000 || total train time @65.603s || test acc@0.533
+ >> # of data @6100 || total train time @54.373s || test acc@0.536
+ >> # of data @6200 || total train time @55.428s || test acc@0.522
+ >> # of data @6300 || total train time @73.558s || test acc@0.568
+ >> # of data @6400 || total train time @69.540s || test acc@0.569
+ >> # of data @6500 || total train time @75.437s || test acc@0.542
+ >> # of data @6600 || total train time @67.806s || test acc@0.550
+ >> # of data @6700 || total train time @63.771s || test acc@0.560
+ >> # of data @6800 || total train time @111.516s || test acc@0.563
+ >> # of data @6900 || total train time @74.836s || test acc@0.542
+ >> # of data @7000 || total train time @61.851s || test acc@0.553
+ >> # of data @7100 || total train time @82.335s || test acc@0.545
+ >> # of data @7200 || total train time @87.771s || test acc@0.562
+ >> # of data @7300 || total train time @109.483s || test acc@0.541
+ >> # of data @7400 || total train time @74.662s || test acc@0.572
+ >> # of data @7500 || total train time @81.178s || test acc@0.578
+ >> # of data @7600 || total train time @93.066s || test acc@0.537
+ >> # of data @7700 || total train time @79.151s || test acc@0.572
+ >> # of data @7800 || total train time @73.653s || test acc@0.547
+ >> # of data @7900 || total train time @90.496s || test acc@0.581
+ >> # of data @8000 || total train time @91.808s || test acc@0.570
+ >> # of data @8100 || total train time @75.583s || test acc@0.577
+ >> # of data @8200 || total train time @100.890s || test acc@0.577
+ >> # of data @8300 || total train time @82.963s || test acc@0.575
+ >> # of data @8400 || total train time @100.882s || test acc@0.578
+ >> # of data @8500 || total train time @102.525s || test acc@0.597
+ >> # of data @8600 || total train time @75.624s || test acc@0.595
+ >> # of data @8700 || total train time @80.974s || test acc@0.584
+ >> # of data @8800 || total train time @88.100s || test acc@0.593
+ >> # of data @8900 || total train time @83.264s || test acc@0.573
+ >> # of data @9000 || total train time @84.996s || test acc@0.561
+ >> # of data @9100 || total train time @115.787s || test acc@0.591
+ >> # of data @9200 || total train time @97.318s || test acc@0.568
+ >> # of data @9300 || total train time @98.494s || test acc@0.569
+ >> # of data @9400 || total train time @93.668s || test acc@0.584
+ >> # of data @9500 || total train time @108.053s || test acc@0.585
+ >> # of data @9600 || total train time @108.425s || test acc@0.558
+ >> # of data @9700 || total train time @109.183s || test acc@0.590
+ >> # of data @9800 || total train time @96.764s || test acc@0.597
+ >> # of data @9900 || total train time @105.785s || test acc@0.593
+ >> # of data @10000 || total train time @145.943s || test acc@0.605
+ >> # of data @10100 || total train time @106.906s || test acc@0.582
+ >> # of data @10200 || total train time @87.144s || test acc@0.589
+ >> # of data @10300 || total train time @94.971s || test acc@0.580
+ >> # of data @10400 || total train time @124.179s || test acc@0.576
+ >> # of data @10500 || total train time @111.297s || test acc@0.587
+ >> # of data @10600 || total train time @105.436s || test acc@0.564
+ >> # of data @10700 || total train time @98.083s || test acc@0.587
+ >> # of data @10800 || total train time @106.389s || test acc@0.604
+ >> # of data @10900 || total train time @122.192s || test acc@0.596
+ >> # of data @11000 || total train time @136.835s || test acc@0.595
+ >> # of data @11100 || total train time @130.698s || test acc@0.609
+ >> # of data @11200 || total train time @132.726s || test acc@0.589
+ >> # of data @11300 || total train time @127.820s || test acc@0.601
+ >> # of data @11400 || total train time @128.049s || test acc@0.624
+ >> # of data @11500 || total train time @120.736s || test acc@0.615
+ >> # of data @11600 || total train time @144.803s || test acc@0.617
+ >> # of data @11700 || total train time @123.024s || test acc@0.617
+ >> # of data @11800 || total train time @163.716s || test acc@0.624
+ >> # of data @11900 || total train time @133.628s || test acc@0.595
+ >> # of data @12000 || total train time @141.542s || test acc@0.609
+ >> # of data @12100 || total train time @142.128s || test acc@0.603
+ >> # of data @12200 || total train time @144.169s || test acc@0.636
+ >> # of data @12300 || total train time @178.669s || test acc@0.610
+ >> # of data @12400 || total train time @153.848s || test acc@0.625
+ >> # of data @12500 || total train time @147.936s || test acc@0.620
+ >> # of data @12600 || total train time @140.160s || test acc@0.620
+ >> # of data @12700 || total train time @134.906s || test acc@0.592
+ >> # of data @12800 || total train time @142.158s || test acc@0.633
+ >> # of data @12900 || total train time @135.040s || test acc@0.603
+ >> # of data @13000 || total train time @151.869s || test acc@0.627
+ >> # of data @13100 || total train time @162.200s || test acc@0.630
+ >> # of data @13200 || total train time @138.769s || test acc@0.616
+ >> # of data @13300 || total train time @147.506s || test acc@0.623
+ >> # of data @13400 || total train time @166.017s || test acc@0.619
+ >> # of data @13500 || total train time @141.149s || test acc@0.626
+ >> # of data @13600 || total train time @149.260s || test acc@0.631
+ >> # of data @13700 || total train time @216.251s || test acc@0.650
+ >> # of data @13800 || total train time @153.136s || test acc@0.634
+ >> # of data @13900 || total train time @163.611s || test acc@0.628
+ >> # of data @14000 || total train time @154.362s || test acc@0.608
+ >> # of data @14100 || total train time @155.532s || test acc@0.639
+ >> # of data @14200 || total train time @155.576s || test acc@0.620
+ >> # of data @14300 || total train time @157.297s || test acc@0.629
+ >> # of data @14400 || total train time @157.999s || test acc@0.635
+ >> # of data @14500 || total train time @179.143s || test acc@0.634
+ >> # of data @14600 || total train time @190.286s || test acc@0.644
+ >> # of data @14700 || total train time @199.246s || test acc@0.645
+ >> # of data @14800 || total train time @153.279s || test acc@0.629
+ >> # of data @14900 || total train time @175.115s || test acc@0.629
+ >> # of data @15000 || total train time @194.800s || test acc@0.647
+ >> # of data @15100 || total train time @165.926s || test acc@0.636
+ >> # of data @15200 || total train time @158.360s || test acc@0.627
+ >> # of data @15300 || total train time @157.440s || test acc@0.649
+ >> # of data @15400 || total train time @210.202s || test acc@0.625
+ >> # of data @15500 || total train time @201.272s || test acc@0.650
+ >> # of data @15600 || total train time @162.326s || test acc@0.640
+ >> # of data @15700 || total train time @151.376s || test acc@0.641
+ >> # of data @15800 || total train time @183.505s || test acc@0.652
+ >> # of data @15900 || total train time @205.218s || test acc@0.636
+ >> # of data @16000 || total train time @175.389s || test acc@0.647
+ >> # of data @16100 || total train time @165.669s || test acc@0.654
+ >> # of data @16200 || total train time @219.686s || test acc@0.640
+ >> # of data @16300 || total train time @222.081s || test acc@0.652
+ >> # of data @16400 || total train time @148.487s || test acc@0.640
+ >> # of data @16500 || total train time @192.107s || test acc@0.648
+ >> # of data @16600 || total train time @202.743s || test acc@0.641
+ >> # of data @16700 || total train time @203.741s || test acc@0.669
+ >> # of data @16800 || total train time @183.613s || test acc@0.639
+ >> # of data @16900 || total train time @196.449s || test acc@0.649
+ >> # of data @17000 || total train time @207.243s || test acc@0.628
+ >> # of data @17100 || total train time @176.300s || test acc@0.646
+ >> # of data @17200 || total train time @187.409s || test acc@0.655
+ >> # of data @17300 || total train time @211.478s || test acc@0.650
+ >> # of data @17400 || total train time @236.730s || test acc@0.640
+ >> # of data @17500 || total train time @179.768s || test acc@0.647
+ >> # of data @17600 || total train time @214.042s || test acc@0.645
+ >> # of data @17700 || total train time @195.407s || test acc@0.630
+ >> # of data @17800 || total train time @265.507s || test acc@0.670
+ >> # of data @17900 || total train time @218.772s || test acc@0.644
+ >> # of data @18000 || total train time @197.726s || test acc@0.660
+ >> # of data @18100 || total train time @188.446s || test acc@0.655
+ >> # of data @18200 || total train time @233.323s || test acc@0.651
+ >> # of data @18300 || total train time @223.428s || test acc@0.654
+ >> # of data @18400 || total train time @212.596s || test acc@0.643
+ >> # of data @18500 || total train time @215.145s || test acc@0.655
+ >> # of data @18600 || total train time @228.775s || test acc@0.683
+ >> # of data @18700 || total train time @228.293s || test acc@0.654
+ >> # of data @18800 || total train time @215.922s || test acc@0.654
+ >> # of data @18900 || total train time @194.471s || test acc@0.672
+ >> # of data @19000 || total train time @231.632s || test acc@0.670
+ >> # of data @19100 || total train time @260.702s || test acc@0.672
+ >> # of data @19200 || total train time @245.635s || test acc@0.649
+ >> # of data @19300 || total train time @235.386s || test acc@0.674
+ >> # of data @19400 || total train time @224.599s || test acc@0.664
+ >> # of data @19500 || total train time @251.335s || test acc@0.651
+ >> # of data @19600 || total train time @191.229s || test acc@0.676
+ >> # of data @19700 || total train time @238.397s || test acc@0.672
+ >> # of data @19800 || total train time @203.686s || test acc@0.677
+ >> # of data @19900 || total train time @230.110s || test acc@0.671
+ >> # of data @20000 || total train time @244.587s || test acc@0.678
+ >> # of data @20100 || total train time @220.797s || test acc@0.671
+ >> # of data @20200 || total train time @232.769s || test acc@0.669
+ >> # of data @20300 || total train time @233.221s || test acc@0.653
+ >> # of data @20400 || total train time @263.902s || test acc@0.675
+ >> # of data @20500 || total train time @250.079s || test acc@0.674
+ >> # of data @20600 || total train time @261.543s || test acc@0.662
+ >> # of data @20700 || total train time @264.217s || test acc@0.671
+ >> # of data @20800 || total train time @240.276s || test acc@0.670
+ >> # of data @20900 || total train time @241.507s || test acc@0.654
+ >> # of data @21000 || total train time @242.821s || test acc@0.690
+ >> # of data @21100 || total train time @257.238s || test acc@0.686
+ >> # of data @21200 || total train time @256.375s || test acc@0.670
+ >> # of data @21300 || total train time @287.321s || test acc@0.674
+ >> # of data @21400 || total train time @260.854s || test acc@0.674
+ >> # of data @21500 || total train time @262.315s || test acc@0.679
+ >> # of data @21600 || total train time @249.823s || test acc@0.671
+ >> # of data @21700 || total train time @237.676s || test acc@0.662
+ >> # of data @21800 || total train time @252.579s || test acc@0.673
+ >> # of data @21900 || total train time @323.440s || test acc@0.692
+ >> # of data @22000 || total train time @267.000s || test acc@0.673
+ >> # of data @22100 || total train time @297.427s || test acc@0.675
+ >> # of data @22200 || total train time @256.560s || test acc@0.675
+ >> # of data @22300 || total train time @257.817s || test acc@0.687
+ >> # of data @22400 || total train time @257.190s || test acc@0.691
+ >> # of data @22500 || total train time @260.372s || test acc@0.686
+ >> # of data @22600 || total train time @274.197s || test acc@0.680
+ >> # of data @22700 || total train time @288.119s || test acc@0.685
+ >> # of data @22800 || total train time @335.626s || test acc@0.690
+ >> # of data @22900 || total train time @248.402s || test acc@0.693
+ >> # of data @23000 || total train time @295.602s || test acc@0.680
+ >> # of data @23100 || total train time @294.458s || test acc@0.674
+ >> # of data @23200 || total train time @280.309s || test acc@0.690
+ >> # of data @23300 || total train time @283.005s || test acc@0.694
+ >> # of data @23400 || total train time @283.383s || test acc@0.685
+ >> # of data @23500 || total train time @299.756s || test acc@0.687
+ >> # of data @23600 || total train time @289.622s || test acc@0.687
+ >> # of data @23700 || total train time @275.978s || test acc@0.689
+ >> # of data @23800 || total train time @274.427s || test acc@0.683
+ >> # of data @23900 || total train time @319.977s || test acc@0.692
+ >> # of data @24000 || total train time @305.296s || test acc@0.692
+ >> # of data @24100 || total train time @308.275s || test acc@0.687
+ >> # of data @24200 || total train time @278.771s || test acc@0.677
+ >> # of data @24300 || total train time @309.340s || test acc@0.694
+ >> # of data @24400 || total train time @344.280s || test acc@0.693
+ >> # of data @24500 || total train time @311.967s || test acc@0.685
+ >> # of data @24600 || total train time @282.800s || test acc@0.690
+ >> # of data @24700 || total train time @315.114s || test acc@0.685
+ >> # of data @24800 || total train time @302.477s || test acc@0.687
+ >> # of data @24900 || total train time @255.573s || test acc@0.674
+ >> # of data @25000 || total train time @366.343s || test acc@0.692
+ >> # of data @25100 || total train time @338.552s || test acc@0.689
+ >> # of data @25200 || total train time @288.942s || test acc@0.688
+ >> # of data @25300 || total train time @290.031s || test acc@0.688
+ >> # of data @25400 || total train time @274.040s || test acc@0.703
+ >> # of data @25500 || total train time @308.200s || test acc@0.685
+ >> # of data @25600 || total train time @327.100s || test acc@0.678
+ >> # of data @25700 || total train time @293.680s || test acc@0.693
+ >> # of data @25800 || total train time @280.840s || test acc@0.693
+ >> # of data @25900 || total train time @314.834s || test acc@0.689
+ >> # of data @26000 || total train time @365.972s || test acc@0.689
+ >> # of data @26100 || total train time @331.784s || test acc@0.682
+ >> # of data @26200 || total train time @333.477s || test acc@0.703
+ >> # of data @26300 || total train time @370.222s || test acc@0.701
+ >> # of data @26400 || total train time @354.198s || test acc@0.694
+ >> # of data @26500 || total train time @337.782s || test acc@0.697
+ >> # of data @26600 || total train time @321.257s || test acc@0.701
+ >> # of data @26700 || total train time @339.645s || test acc@0.690
+ >> # of data @26800 || total train time @323.086s || test acc@0.671
+ >> # of data @26900 || total train time @344.481s || test acc@0.695
+ >> # of data @27000 || total train time @309.453s || test acc@0.681
+ >> # of data @27100 || total train time @343.518s || test acc@0.681
+ >> # of data @27200 || total train time @345.660s || test acc@0.688
+ >> # of data @27300 || total train time @348.872s || test acc@0.709
+ >> # of data @27400 || total train time @351.537s || test acc@0.702
+ >> # of data @27500 || total train time @314.907s || test acc@0.695
+ >> # of data @27600 || total train time @404.259s || test acc@0.699
+ >> # of data @27700 || total train time @387.291s || test acc@0.691
+ >> # of data @27800 || total train time @372.226s || test acc@0.697
+ >> # of data @27900 || total train time @320.885s || test acc@0.698
+ >> # of data @28000 || total train time @357.398s || test acc@0.698
+ >> # of data @28100 || total train time @395.867s || test acc@0.702
+ >> # of data @28200 || total train time @340.932s || test acc@0.700
+ >> # of data @28300 || total train time @362.952s || test acc@0.703
+ >> # of data @28400 || total train time @379.921s || test acc@0.710
+ >> # of data @28500 || total train time @382.054s || test acc@0.702
+ >> # of data @28600 || total train time @400.951s || test acc@0.698
+ >> # of data @28700 || total train time @365.809s || test acc@0.697
+ >> # of data @28800 || total train time @329.346s || test acc@0.707
+ >> # of data @28900 || total train time @366.522s || test acc@0.703
+ >> # of data @29000 || total train time @316.164s || test acc@0.706
+ >> # of data @29100 || total train time @374.347s || test acc@0.706
+ >> # of data @29200 || total train time @411.791s || test acc@0.698
+ >> # of data @29300 || total train time @336.917s || test acc@0.707
+ >> # of data @29400 || total train time @373.248s || test acc@0.693
+ >> # of data @29500 || total train time @337.785s || test acc@0.702
+ >> # of data @29600 || total train time @378.961s || test acc@0.699
+ >> # of data @29700 || total train time @322.496s || test acc@0.707
+ >> # of data @29800 || total train time @377.820s || test acc@0.708
+ >> # of data @29900 || total train time @364.278s || test acc@0.704
+ >> # of data @30000 || total train time @363.639s || test acc@0.708
+ >> # of data @30100 || total train time @404.440s || test acc@0.702
+ >> # of data @30200 || total train time @365.005s || test acc@0.703
+ >> # of data @30300 || total train time @367.476s || test acc@0.711
+ >> # of data @30400 || total train time @367.477s || test acc@0.710
+ >> # of data @30500 || total train time @410.270s || test acc@0.702
+ >> # of data @30600 || total train time @433.471s || test acc@0.711
+ >> # of data @30700 || total train time @452.215s || test acc@0.709
+ >> # of data @30800 || total train time @393.148s || test acc@0.723
+ >> # of data @30900 || total train time @376.357s || test acc@0.704
+ >> # of data @31000 || total train time @436.006s || test acc@0.717
+ >> # of data @31100 || total train time @418.808s || test acc@0.703
+ >> # of data @31200 || total train time @378.797s || test acc@0.703
+ >> # of data @31300 || total train time @401.288s || test acc@0.713
+ >> # of data @31400 || total train time @384.657s || test acc@0.726
+ >> # of data @31500 || total train time @443.261s || test acc@0.710
+ >> # of data @31600 || total train time @422.123s || test acc@0.701
+ >> # of data @31700 || total train time @383.549s || test acc@0.701
+ >> # of data @31800 || total train time @427.455s || test acc@0.710
+ >> # of data @31900 || total train time @385.119s || test acc@0.714
+ >> # of data @32000 || total train time @447.322s || test acc@0.714
+ >> # of data @32100 || total train time @428.995s || test acc@0.703
+ >> # of data @32200 || total train time @389.121s || test acc@0.709
+ >> # of data @32300 || total train time @414.360s || test acc@0.717
+ >> # of data @32400 || total train time @374.805s || test acc@0.708
+ >> # of data @32500 || total train time @414.412s || test acc@0.713
+ >> # of data @32600 || total train time @434.240s || test acc@0.704
+ >> # of data @32700 || total train time @417.961s || test acc@0.713
+ >> # of data @32800 || total train time @375.440s || test acc@0.709
+ >> # of data @32900 || total train time @422.590s || test acc@0.724
+ >> # of data @33000 || total train time @467.730s || test acc@0.715
+ >> # of data @33100 || total train time @400.817s || test acc@0.718
+ >> # of data @33200 || total train time @403.496s || test acc@0.711
+ >> # of data @33300 || total train time @490.833s || test acc@0.713
+ >> # of data @33400 || total train time @425.846s || test acc@0.723
+ >> # of data @33500 || total train time @470.564s || test acc@0.713
+ >> # of data @33600 || total train time @409.676s || test acc@0.712
+ >> # of data @33700 || total train time @429.639s || test acc@0.724
+ >> # of data @33800 || total train time @497.727s || test acc@0.715
+ >> # of data @33900 || total train time @474.354s || test acc@0.717
+ >> # of data @34000 || total train time @436.039s || test acc@0.714
+ >> # of data @34100 || total train time @435.372s || test acc@0.721
+ >> # of data @34200 || total train time @391.988s || test acc@0.710
+ >> # of data @34300 || total train time @415.707s || test acc@0.714
+ >> # of data @34400 || total train time @437.458s || test acc@0.737
+ >> # of data @34500 || total train time @442.329s || test acc@0.719
+ >> # of data @34600 || total train time @441.781s || test acc@0.722
+ >> # of data @34700 || total train time @398.527s || test acc@0.714
+ >> # of data @34800 || total train time @488.340s || test acc@0.727
+ >> # of data @34900 || total train time @444.240s || test acc@0.729
+ >> # of data @35000 || total train time @470.131s || test acc@0.720
+ >> # of data @35100 || total train time @469.045s || test acc@0.733
+ >> # of data @35200 || total train time @429.441s || test acc@0.714
+ >> # of data @35300 || total train time @496.739s || test acc@0.712
+ >> # of data @35400 || total train time @476.008s || test acc@0.719
+ >> # of data @35500 || total train time @454.476s || test acc@0.727
+ >> # of data @35600 || total train time @477.821s || test acc@0.717
+ >> # of data @35700 || total train time @453.209s || test acc@0.728
+ >> # of data @35800 || total train time @411.923s || test acc@0.718
+ >> # of data @35900 || total train time @459.252s || test acc@0.719
+ >> # of data @36000 || total train time @440.592s || test acc@0.730
+ >> # of data @36100 || total train time @512.823s || test acc@0.740
+ >> # of data @36200 || total train time @441.982s || test acc@0.736
+ >> # of data @36300 || total train time @463.182s || test acc@0.725
+ >> # of data @36400 || total train time @468.251s || test acc@0.728
+ >> # of data @36500 || total train time @493.004s || test acc@0.741
+ >> # of data @36600 || total train time @445.049s || test acc@0.718
+ >> # of data @36700 || total train time @469.812s || test acc@0.725
+ >> # of data @36800 || total train time @473.415s || test acc@0.721
+ >> # of data @36900 || total train time @493.135s || test acc@0.723
+ >> # of data @37000 || total train time @448.010s || test acc@0.727
+ >> # of data @37100 || total train time @496.094s || test acc@0.728
+ >> # of data @37200 || total train time @451.191s || test acc@0.727
+ >> # of data @37300 || total train time @503.881s || test acc@0.722
+ >> # of data @37400 || total train time @499.871s || test acc@0.721
+ >> # of data @37500 || total train time @504.570s || test acc@0.724
+ >> # of data @37600 || total train time @454.347s || test acc@0.724
+ >> # of data @37700 || total train time @455.820s || test acc@0.728
+ >> # of data @37800 || total train time @458.448s || test acc@0.732
+ >> # of data @37900 || total train time @534.986s || test acc@0.725
+ >> # of data @38000 || total train time @487.623s || test acc@0.724
+ >> # of data @38100 || total train time @509.405s || test acc@0.718
+ >> # of data @38200 || total train time @490.211s || test acc@0.716
+ >> # of data @38300 || total train time @464.671s || test acc@0.720
+ >> # of data @38400 || total train time @541.684s || test acc@0.723
+ >> # of data @38500 || total train time @490.243s || test acc@0.738
+ >> # of data @38600 || total train time @470.907s || test acc@0.734
+ >> # of data @38700 || total train time @547.990s || test acc@0.707
+ >> # of data @38800 || total train time @500.405s || test acc@0.722
+ >> # of data @38900 || total train time @524.398s || test acc@0.716
+ >> # of data @39000 || total train time @522.914s || test acc@0.732
+ >> # of data @39100 || total train time @427.329s || test acc@0.734
+ >> # of data @39200 || total train time @500.768s || test acc@0.729
+ >> # of data @39300 || total train time @478.630s || test acc@0.721
+ >> # of data @39400 || total train time @481.849s || test acc@0.724
+ >> # of data @39500 || total train time @503.935s || test acc@0.720
+ >> # of data @39600 || total train time @504.729s || test acc@0.718
+ >> # of data @39700 || total train time @560.196s || test acc@0.730
+ >> # of data @39800 || total train time @508.279s || test acc@0.728
+ >> # of data @39900 || total train time @509.195s || test acc@0.730
+ >> # of data @40000 || total train time @514.034s || test acc@0.721
+ >> # of data @40100 || total train time @542.845s || test acc@0.730
+ >> # of data @40200 || total train time @572.238s || test acc@0.734
+ >> # of data @40300 || total train time @570.048s || test acc@0.731
+ >> # of data @40400 || total train time @541.503s || test acc@0.736
+ >> # of data @40500 || total train time @515.875s || test acc@0.728
+ >> # of data @40600 || total train time @571.488s || test acc@0.728
+ >> # of data @40700 || total train time @497.113s || test acc@0.737
+ >> # of data @40800 || total train time @548.975s || test acc@0.736
+ >> # of data @40900 || total train time @550.698s || test acc@0.735
+ >> # of data @41000 || total train time @551.232s || test acc@0.735
+ >> # of data @41100 || total train time @526.093s || test acc@0.730
+ >> # of data @41200 || total train time @578.082s || test acc@0.728
+ >> # of data @41300 || total train time @526.017s || test acc@0.723
+ >> # of data @41400 || total train time @527.999s || test acc@0.731
+ >> # of data @41500 || total train time @533.491s || test acc@0.728
+ >> # of data @41600 || total train time @505.283s || test acc@0.741
+ >> # of data @41700 || total train time @503.002s || test acc@0.726
+ >> # of data @41800 || total train time @535.729s || test acc@0.732
+ >> # of data @41900 || total train time @533.727s || test acc@0.735
+ >> # of data @42000 || total train time @483.160s || test acc@0.730
+ >> # of data @42100 || total train time @540.248s || test acc@0.736
+ >> # of data @42200 || total train time @564.075s || test acc@0.740
+ >> # of data @42300 || total train time @530.815s || test acc@0.734
+ >> # of data @42400 || total train time @537.142s || test acc@0.741
+ >> # of data @42500 || total train time @592.695s || test acc@0.734
+ >> # of data @42600 || total train time @567.043s || test acc@0.726
+ >> # of data @42700 || total train time @564.394s || test acc@0.737
+ >> # of data @42800 || total train time @489.905s || test acc@0.735
+ >> # of data @42900 || total train time @599.945s || test acc@0.737
+ >> # of data @43000 || total train time @513.251s || test acc@0.747
+ >> # of data @43100 || total train time @567.235s || test acc@0.724
+ >> # of data @43200 || total train time @546.299s || test acc@0.735
+ >> # of data @43300 || total train time @550.568s || test acc@0.740
+ >> # of data @43400 || total train time @581.000s || test acc@0.734
+ >> # of data @43500 || total train time @548.016s || test acc@0.737
+ >> # of data @43600 || total train time @576.581s || test acc@0.723
+ >> # of data @43700 || total train time @522.566s || test acc@0.734
+ >> # of data @43800 || total train time @577.191s || test acc@0.735
+ >> # of data @43900 || total train time @574.601s || test acc@0.745
+ >> # of data @44000 || total train time @551.613s || test acc@0.730
+ >> # of data @44100 || total train time @552.967s || test acc@0.735
+ >> # of data @44200 || total train time @581.282s || test acc@0.743
+ >> # of data @44300 || total train time @640.278s || test acc@0.747
+ >> # of data @44400 || total train time @582.909s || test acc@0.731
+ >> # of data @44500 || total train time @556.794s || test acc@0.737
+ >> # of data @44600 || total train time @529.851s || test acc@0.715
+ >> # of data @44700 || total train time @593.065s || test acc@0.754
+ >> # of data @44800 || total train time @591.107s || test acc@0.736
+ >> # of data @44900 || total train time @561.372s || test acc@0.738
+ >> # of data @45000 || total train time @592.505s || test acc@0.744
+ >> # of data @45100 || total train time @564.561s || test acc@0.728
+ >> # of data @45200 || total train time @567.435s || test acc@0.735
+ >> # of data @45300 || total train time @566.310s || test acc@0.738
+ >> # of data @45400 || total train time @628.435s || test acc@0.743
+ >> # of data @45500 || total train time @601.682s || test acc@0.742
+ >> # of data @45600 || total train time @515.393s || test acc@0.744
+ >> # of data @45700 || total train time @685.964s || test acc@0.753
+ >> # of data @45800 || total train time @601.249s || test acc@0.738
+ >> # of data @45900 || total train time @577.510s || test acc@0.742
+ >> # of data @46000 || total train time @579.411s || test acc@0.738
+ >> # of data @46100 || total train time @634.878s || test acc@0.744
+ >> # of data @46200 || total train time @579.778s || test acc@0.753
+ >> # of data @46300 || total train time @613.851s || test acc@0.750
+ >> # of data @46400 || total train time @610.986s || test acc@0.744
+ >> # of data @46500 || total train time @554.547s || test acc@0.738
+ >> # of data @46600 || total train time @557.450s || test acc@0.739
+ >> # of data @46700 || total train time @585.911s || test acc@0.743
+ >> # of data @46800 || total train time @646.301s || test acc@0.746
+ >> # of data @46900 || total train time @593.461s || test acc@0.748
+ >> # of data @47000 || total train time @618.128s || test acc@0.734
+ >> # of data @47100 || total train time @587.857s || test acc@0.743
+ >> # of data @47200 || total train time @623.273s || test acc@0.733
+ >> # of data @47300 || total train time @657.448s || test acc@0.738
+ >> # of data @47400 || total train time @536.184s || test acc@0.725
+ >> # of data @47500 || total train time @600.260s || test acc@0.748
+ >> # of data @47600 || total train time @538.035s || test acc@0.722
+ >> # of data @47700 || total train time @601.052s || test acc@0.750
+ >> # of data @47800 || total train time @631.852s || test acc@0.734
+ >> # of data @47900 || total train time @634.272s || test acc@0.742
+ >> # of data @48000 || total train time @600.333s || test acc@0.751
+ >> # of data @48100 || total train time @636.922s || test acc@0.744
+ >> # of data @48200 || total train time @634.604s || test acc@0.745
+ >> # of data @48300 || total train time @606.393s || test acc@0.742
+ >> # of data @48400 || total train time @546.441s || test acc@0.735
+ >> # of data @48500 || total train time @667.291s || test acc@0.748
+ >> # of data @48600 || total train time @636.750s || test acc@0.741
+ >> # of data @48700 || total train time @669.298s || test acc@0.750
+ >> # of data @48800 || total train time @611.341s || test acc@0.735
+ >> # of data @48900 || total train time @705.681s || test acc@0.745
+ >> # of data @49000 || total train time @612.283s || test acc@0.740
+ >> # of data @49100 || total train time @646.767s || test acc@0.754
+ >> # of data @49200 || total train time @648.150s || test acc@0.749
+ >> # of data @49300 || total train time @583.719s || test acc@0.733
+ >> # of data @49400 || total train time @617.229s || test acc@0.739
+ >> # of data @49500 || total train time @619.670s || test acc@0.739
+ >> # of data @49600 || total train time @594.173s || test acc@0.746
+ >> # of data @49700 || total train time @596.016s || test acc@0.738
+ >> # of data @49800 || total train time @689.703s || test acc@0.755
+ >> # of data @49900 || total train time @626.465s || test acc@0.736
+ >> # of data @50000 || total train time @621.805s || test acc@0.750
+
+
+Fri Jan 15 02:40:42 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+using multiple gpus
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.05
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+
+
+Fri Jan 15 02:41:04 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+using multiple gpus
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.05
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+
+
+Fri Jan 15 02:47:03 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+using multiple gpus
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.05
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+
+
+Fri Jan 15 02:47:28 2021
+rand_cifar10_vgg_Adam's set level: 10
+rand_cifar10_vgg_Adam logger is ready
+using multiple gpus
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@vgg :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.05
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @100
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000

@@ -1,0 +1,224 @@
+
+
+Fri Jan 15 02:04:46 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+using multiple gpus
+
+
+Fri Jan 15 02:04:58 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+using multiple gpus
+
+
+Fri Jan 15 02:05:08 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+using multiple gpus
+
+
+Fri Jan 15 02:05:49 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+using multiple gpus
+
+
+Fri Jan 15 02:06:57 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+using multiple gpus
+
+
+Fri Jan 15 02:26:47 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+
+
+Fri Jan 15 02:31:48 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+
+
+Fri Jan 15 02:32:19 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+
+
+Fri Jan 15 02:33:15 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+
+
+Fri Jan 15 02:33:42 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+
+
+Fri Jan 15 02:34:06 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+
+
+Fri Jan 15 02:35:12 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+
+
+Fri Jan 15 02:43:30 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+
+
+Fri Jan 15 02:44:15 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+
+
+Fri Jan 15 02:49:16 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+
+
+Fri Jan 15 02:55:56 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+TRAIINING epoch@0 ::  acc@15.893  loss@2.446
+TESTING epoch@0 ::  acc@15.893  loss@2.446
+TRAIINING epoch@1 ::  acc@27.056  loss@1.981
+TESTING epoch@1 ::  acc@27.056  loss@1.981
+TRAIINING epoch@2 ::  acc@40.982  loss@1.681
+TESTING epoch@2 ::  acc@40.982  loss@1.681
+TRAIINING epoch@3 ::  acc@55.205  loss@1.460
+TESTING epoch@3 ::  acc@55.205  loss@1.460
+TRAIINING epoch@4 ::  acc@69.156  loss@1.251
+TESTING epoch@4 ::  acc@69.156  loss@1.251
+
+
+Fri Jan 15 02:58:36 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+TRAIINING epoch@0 ::  acc@15.893  loss@2.446
+TESTING epoch@0 ::  acc@156.900  loss@2.187
+TRAIINING epoch@1 ::  acc@27.056  loss@1.981
+TESTING epoch@1 ::  acc@266.600  loss@1.796
+TRAIINING epoch@2 ::  acc@40.982  loss@1.681
+TESTING epoch@2 ::  acc@349.100  loss@1.606
+TRAIINING epoch@3 ::  acc@55.205  loss@1.460
+TESTING epoch@3 ::  acc@434.100  loss@1.584
+TRAIINING epoch@4 ::  acc@69.156  loss@1.251
+TESTING epoch@4 ::  acc@477.700  loss@1.668
+TRAIINING epoch@5 ::  acc@77.437  loss@1.105
+TESTING epoch@5 ::  acc@612.400  loss@1.176
+TRAIINING epoch@6 ::  acc@83.422  loss@0.984
+TESTING epoch@6 ::  acc@600.100  loss@1.567
+TRAIINING epoch@7 ::  acc@89.294  loss@0.867
+TESTING epoch@7 ::  acc@658.100  loss@1.063
+TRAIINING epoch@8 ::  acc@95.660  loss@0.732
+
+
+Fri Jan 15 03:02:53 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+TRAIINING epoch@0 ::  acc@15.893  loss@2.446
+TESTING epoch@0 ::  acc@156.900  loss@2.187
+
+
+Fri Jan 15 03:05:44 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+
+
+Fri Jan 15 03:07:35 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+TRAIINING epoch@0 ::  acc@15.893  loss@2.446
+
+
+Fri Jan 15 03:17:31 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+
+
+Fri Jan 15 03:19:27 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+TRAIINING epoch@0 ::  acc@0.124  loss@0.019
+TESTING epoch@0 ::  acc@0.157  loss@0.002
+TRAIINING epoch@1 ::  acc@0.212  loss@0.015
+TESTING epoch@1 ::  acc@0.267  loss@0.002
+TRAIINING epoch@2 ::  acc@0.320  loss@0.013
+TESTING epoch@2 ::  acc@0.349  loss@0.002
+TRAIINING epoch@3 ::  acc@0.432  loss@0.011
+TESTING epoch@3 ::  acc@0.434  loss@0.002
+
+
+Fri Jan 15 03:21:49 2021
+imbal_rand_cifar10_vgg_Adam's set level: 10
+imbal_rand_cifar10_vgg_Adam logger is ready
+parallel mode is False
+TRAIINING epoch@0 ::  acc@0.124  loss@2.446
+TESTING epoch@0 ::  acc@0.157  loss@2.187
+TRAIINING epoch@1 ::  acc@0.212  loss@1.981
+TESTING epoch@1 ::  acc@0.267  loss@1.796
+TRAIINING epoch@2 ::  acc@0.320  loss@1.681
+TESTING epoch@2 ::  acc@0.349  loss@1.606
+TRAIINING epoch@3 ::  acc@0.432  loss@1.460
+TESTING epoch@3 ::  acc@0.434  loss@1.584
+TRAIINING epoch@4 ::  acc@0.541  loss@1.251
+TESTING epoch@4 ::  acc@0.478  loss@1.668
+TRAIINING epoch@5 ::  acc@0.606  loss@1.105
+TESTING epoch@5 ::  acc@0.612  loss@1.176
+TRAIINING epoch@6 ::  acc@0.652  loss@0.984
+TESTING epoch@6 ::  acc@0.600  loss@1.567
+TRAIINING epoch@7 ::  acc@0.698  loss@0.867
+TESTING epoch@7 ::  acc@0.658  loss@1.063
+TRAIINING epoch@8 ::  acc@0.748  loss@0.732
+TESTING epoch@8 ::  acc@0.700  loss@0.924
+TRAIINING epoch@9 ::  acc@0.789  loss@0.625
+TESTING epoch@9 ::  acc@0.726  loss@0.864
+TRAIINING epoch@10 ::  acc@0.817  loss@0.548
+TESTING epoch@10 ::  acc@0.738  loss@0.929
+TRAIINING epoch@11 ::  acc@0.839  loss@0.490
+TESTING epoch@11 ::  acc@0.764  loss@0.873
+TRAIINING epoch@12 ::  acc@0.860  loss@0.425
+TESTING epoch@12 ::  acc@0.771  loss@0.903
+TRAIINING epoch@13 ::  acc@0.877  loss@0.376
+TESTING epoch@13 ::  acc@0.730  loss@1.165
+TRAIINING epoch@14 ::  acc@0.891  loss@0.335
+TESTING epoch@14 ::  acc@0.774  loss@0.908
+TRAIINING epoch@15 ::  acc@0.901  loss@0.309
+TESTING epoch@15 ::  acc@0.801  loss@0.771
+TRAIINING epoch@16 ::  acc@0.914  loss@0.267
+TESTING epoch@16 ::  acc@0.792  loss@0.874
+TRAIINING epoch@17 ::  acc@0.920  loss@0.245
+TESTING epoch@17 ::  acc@0.797  loss@0.949
+TRAIINING epoch@18 ::  acc@0.929  loss@0.220
+TESTING epoch@18 ::  acc@0.799  loss@0.877
+TRAIINING epoch@19 ::  acc@0.936  loss@0.196
+TESTING epoch@19 ::  acc@0.791  loss@0.979
+TRAIINING epoch@20 ::  acc@0.942  loss@0.183
+TESTING epoch@20 ::  acc@0.795  loss@0.915
+TRAIINING epoch@21 ::  acc@0.946  loss@0.171
+TESTING epoch@21 ::  acc@0.805  loss@1.021
+TRAIINING epoch@22 ::  acc@0.953  loss@0.150
+TESTING epoch@22 ::  acc@0.784  loss@1.039
+TRAIINING epoch@23 ::  acc@0.953  loss@0.151
+TESTING epoch@23 ::  acc@0.792  loss@1.044

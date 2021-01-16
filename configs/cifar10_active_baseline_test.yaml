@@ -1,0 +1,24 @@
+###########
+# Dataset #
+###########
+# imbalanced
+ratio: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+# model
+mode: 'baseline'
+model_name: 'vgg'
+
+# random split
+split_data: []
+batch_size: 128 #[64,128]
+
+
+# dataset mode
+data_name: 'cifar10'
+num_classes: 10
+data_path: '/home/ncl/data/'
+
+#lr_scheduler_g:
+#  type: MultiStepLR
+#  options:
+#    milestones: [1]
+#    gamma: 0.2

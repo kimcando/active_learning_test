@@ -1,0 +1,236 @@
+
+
+Sat Jan  9 07:16:23 2021
+test_cifar10_lenet_Adam's set level: 10
+test_cifar10_lenet_Adam logger is ready
+img_size@32 :: batch_size@128
+model@lenet :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+
+
+Sat Jan  9 07:16:56 2021
+test_cifar10_lenet_Adam's set level: 10
+test_cifar10_lenet_Adam logger is ready
+img_size@32 :: batch_size@128
+model@lenet :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+TRAIINING epoch@0 ::  acc@46.946  loss@1.707
+TESTING epoch@0 ::  acc@46.946  loss@1.707
+TRAIINING epoch@1 ::  acc@62.939  loss@1.406
+TESTING epoch@1 ::  acc@62.939  loss@1.406
+TRAIINING epoch@2 ::  acc@69.614  loss@1.267
+TESTING epoch@2 ::  acc@69.614  loss@1.267
+TRAIINING epoch@3 ::  acc@75.189  loss@1.154
+TESTING epoch@3 ::  acc@75.189  loss@1.154
+TRAIINING epoch@4 ::  acc@79.563  loss@1.066
+TESTING epoch@4 ::  acc@79.563  loss@1.066
+TRAIINING epoch@5 ::  acc@83.458  loss@0.985
+TESTING epoch@5 ::  acc@83.458  loss@0.985
+TRAIINING epoch@6 ::  acc@86.409  loss@0.922
+TESTING epoch@6 ::  acc@86.409  loss@0.922
+TRAIINING epoch@7 ::  acc@88.588  loss@0.872
+TESTING epoch@7 ::  acc@88.588  loss@0.872
+TRAIINING epoch@8 ::  acc@90.478  loss@0.833
+TESTING epoch@8 ::  acc@90.478  loss@0.833
+TRAIINING epoch@9 ::  acc@92.844  loss@0.784
+TESTING epoch@9 ::  acc@92.844  loss@0.784
+TRAIINING epoch@10 ::  acc@94.371  loss@0.746
+TESTING epoch@10 ::  acc@94.371  loss@0.746
+TRAIINING epoch@11 ::  acc@95.967  loss@0.716
+TESTING epoch@11 ::  acc@95.967  loss@0.716
+TRAIINING epoch@12 ::  acc@97.320  loss@0.683
+TESTING epoch@12 ::  acc@97.320  loss@0.683
+TRAIINING epoch@13 ::  acc@98.258  loss@0.650
+TESTING epoch@13 ::  acc@98.258  loss@0.650
+TRAIINING epoch@14 ::  acc@99.514  loss@0.627
+TESTING epoch@14 ::  acc@99.514  loss@0.627
+TRAIINING epoch@15 ::  acc@100.964  loss@0.594
+TESTING epoch@15 ::  acc@100.964  loss@0.594
+TRAIINING epoch@16 ::  acc@102.120  loss@0.565
+TESTING epoch@16 ::  acc@102.120  loss@0.565
+TRAIINING epoch@17 ::  acc@102.780  loss@0.548
+TESTING epoch@17 ::  acc@102.780  loss@0.548
+TRAIINING epoch@18 ::  acc@103.780  loss@0.527
+TESTING epoch@18 ::  acc@103.780  loss@0.527
+TRAIINING epoch@19 ::  acc@105.005  loss@0.501
+TESTING epoch@19 ::  acc@105.005  loss@0.501
+TRAIINING epoch@20 ::  acc@105.563  loss@0.483
+TESTING epoch@20 ::  acc@105.563  loss@0.483
+TRAIINING epoch@21 ::  acc@106.701  loss@0.461
+TESTING epoch@21 ::  acc@106.701  loss@0.461
+TRAIINING epoch@22 ::  acc@107.483  loss@0.443
+TESTING epoch@22 ::  acc@107.483  loss@0.443
+TRAIINING epoch@23 ::  acc@108.330  loss@0.425
+TESTING epoch@23 ::  acc@108.330  loss@0.425
+TRAIINING epoch@24 ::  acc@108.801  loss@0.410
+TESTING epoch@24 ::  acc@108.801  loss@0.410
+TRAIINING epoch@25 ::  acc@109.409  loss@0.397
+TESTING epoch@25 ::  acc@109.409  loss@0.397
+TRAIINING epoch@26 ::  acc@110.317  loss@0.378
+TESTING epoch@26 ::  acc@110.317  loss@0.378
+TRAIINING epoch@27 ::  acc@111.133  loss@0.363
+TESTING epoch@27 ::  acc@111.133  loss@0.363
+TRAIINING epoch@28 ::  acc@111.501  loss@0.352
+TESTING epoch@28 ::  acc@111.501  loss@0.352
+TRAIINING epoch@29 ::  acc@111.770  loss@0.344
+TESTING epoch@29 ::  acc@111.770  loss@0.344
+TRAIINING epoch@30 ::  acc@112.552  loss@0.324
+TESTING epoch@30 ::  acc@112.552  loss@0.324
+TRAIINING epoch@31 ::  acc@113.064  loss@0.317
+TESTING epoch@31 ::  acc@113.064  loss@0.317
+TRAIINING epoch@32 ::  acc@113.483  loss@0.308
+TESTING epoch@32 ::  acc@113.483  loss@0.308
+TRAIINING epoch@33 ::  acc@113.834  loss@0.297
+TESTING epoch@33 ::  acc@113.834  loss@0.297
+TRAIINING epoch@34 ::  acc@113.977  loss@0.293
+TESTING epoch@34 ::  acc@113.977  loss@0.293
+TRAIINING epoch@35 ::  acc@114.760  loss@0.280
+TESTING epoch@35 ::  acc@114.760  loss@0.280
+TRAIINING epoch@36 ::  acc@115.223  loss@0.267
+TESTING epoch@36 ::  acc@115.223  loss@0.267
+TRAIINING epoch@37 ::  acc@115.399  loss@0.265
+TESTING epoch@37 ::  acc@115.399  loss@0.265
+TRAIINING epoch@38 ::  acc@115.568  loss@0.262
+TESTING epoch@38 ::  acc@115.568  loss@0.262
+TRAIINING epoch@39 ::  acc@115.668  loss@0.260
+TESTING epoch@39 ::  acc@115.668  loss@0.260
+TRAIINING epoch@40 ::  acc@116.240  loss@0.247
+TESTING epoch@40 ::  acc@116.240  loss@0.247
+TRAIINING epoch@41 ::  acc@116.606  loss@0.241
+TESTING epoch@41 ::  acc@116.606  loss@0.241
+TRAIINING epoch@42 ::  acc@116.798  loss@0.239
+TESTING epoch@42 ::  acc@116.798  loss@0.239
+TRAIINING epoch@43 ::  acc@116.504  loss@0.240
+TESTING epoch@43 ::  acc@116.504  loss@0.240
+TRAIINING epoch@44 ::  acc@116.716  loss@0.237
+TESTING epoch@44 ::  acc@116.716  loss@0.237
+TRAIINING epoch@45 ::  acc@117.535  loss@0.219
+TESTING epoch@45 ::  acc@117.535  loss@0.219
+TRAIINING epoch@46 ::  acc@117.246  loss@0.222
+TESTING epoch@46 ::  acc@117.246  loss@0.222
+TRAIINING epoch@47 ::  acc@117.481  loss@0.220
+TESTING epoch@47 ::  acc@117.481  loss@0.220
+TRAIINING epoch@48 ::  acc@117.754  loss@0.214
+TESTING epoch@48 ::  acc@117.754  loss@0.214
+TRAIINING epoch@49 ::  acc@117.885  loss@0.205
+TESTING epoch@49 ::  acc@117.885  loss@0.205
+
+
+Sat Jan  9 07:27:57 2021
+test_cifar10_lenet_Adam's set level: 10
+test_cifar10_lenet_Adam logger is ready
+img_size@32 :: batch_size@128
+model@lenet :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+
+
+Sat Jan  9 07:28:47 2021
+test_cifar10_lenet_Adam's set level: 10
+test_cifar10_lenet_Adam logger is ready
+img_size@32 :: batch_size@128
+model@lenet :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+TRAIINING epoch@0 ::  acc@47.276  loss@1.701
+TESTING epoch@0 ::  acc@47.276  loss@1.701
+
+
+Sat Jan  9 07:33:05 2021
+test_cifar10_lenet_Adam's set level: 10
+test_cifar10_lenet_Adam logger is ready
+img_size@32 :: batch_size@128
+model@lenet :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+TRAIINING epoch@0 ::  acc@47.046  loss@1.706
+TESTING epoch@0 ::  acc@61.468  loss@1.405
+TRAIINING epoch@1 ::  acc@63.220  loss@1.401
+TESTING epoch@1 ::  acc@67.949  loss@1.281
+TRAIINING epoch@2 ::  acc@69.985  loss@1.264
+TESTING epoch@2 ::  acc@73.038  loss@1.166
+TRAIINING epoch@3 ::  acc@75.292  loss@1.153
+TESTING epoch@3 ::  acc@78.911  loss@1.073
+TRAIINING epoch@4 ::  acc@79.379  loss@1.065
+TESTING epoch@4 ::  acc@81.797  loss@1.016
+TRAIINING epoch@5 ::  acc@83.463  loss@0.983
+TESTING epoch@5 ::  acc@85.063  loss@0.941
+TRAIINING epoch@6 ::  acc@86.192  loss@0.919
+TESTING epoch@6 ::  acc@85.646  loss@0.940
+TRAIINING epoch@7 ::  acc@88.719  loss@0.868
+TESTING epoch@7 ::  acc@86.785  loss@0.913
+TRAIINING epoch@8 ::  acc@90.581  loss@0.828
+TESTING epoch@8 ::  acc@88.937  loss@0.866
+TRAIINING epoch@9 ::  acc@92.821  loss@0.780
+TESTING epoch@9 ::  acc@90.329  loss@0.838
+TRAIINING epoch@10 ::  acc@94.844  loss@0.737
+TESTING epoch@10 ::  acc@91.190  loss@0.806
+TRAIINING epoch@11 ::  acc@96.125  loss@0.707
+TESTING epoch@11 ::  acc@91.620  loss@0.810
+TRAIINING epoch@12 ::  acc@97.652  loss@0.674
+TESTING epoch@12 ::  acc@92.203  loss@0.807
+TRAIINING epoch@13 ::  acc@98.847  loss@0.641
+TESTING epoch@13 ::  acc@92.722  loss@0.790
+TRAIINING epoch@14 ::  acc@100.072  loss@0.618
+TESTING epoch@14 ::  acc@92.595  loss@0.801
+TRAIINING epoch@15 ::  acc@101.230  loss@0.587
+TESTING epoch@15 ::  acc@92.228  loss@0.813
+TRAIINING epoch@16 ::  acc@102.327  loss@0.560
+TESTING epoch@16 ::  acc@92.671  loss@0.811
+TRAIINING epoch@17 ::  acc@103.123  loss@0.541
+TESTING epoch@17 ::  acc@93.304  loss@0.798
+TRAIINING epoch@18 ::  acc@104.481  loss@0.513
+TESTING epoch@18 ::  acc@93.785  loss@0.790
+TRAIINING epoch@19 ::  acc@105.632  loss@0.491
+TESTING epoch@19 ::  acc@93.949  loss@0.789
+TRAIINING epoch@20 ::  acc@106.271  loss@0.473
+TESTING epoch@20 ::  acc@94.000  loss@0.804
+TRAIINING epoch@21 ::  acc@106.918  loss@0.452
+TESTING epoch@21 ::  acc@93.835  loss@0.809
+TRAIINING epoch@22 ::  acc@107.780  loss@0.434
+TESTING epoch@22 ::  acc@94.595  loss@0.819
+TRAIINING epoch@23 ::  acc@108.875  loss@0.416
+TESTING epoch@23 ::  acc@94.025  loss@0.863
+TRAIINING epoch@24 ::  acc@109.524  loss@0.396
+TESTING epoch@24 ::  acc@94.152  loss@0.863
+TRAIINING epoch@25 ::  acc@110.084  loss@0.383
+TESTING epoch@25 ::  acc@94.354  loss@0.867
+
+
+Sat Jan  9 07:47:19 2021
+test_cifar10_lenet_Adam's set level: 10
+test_cifar10_lenet_Adam logger is ready
+img_size@32 :: batch_size@128
+model@lenet :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+
+
+Sat Jan  9 07:47:55 2021
+test_cifar10_lenet_Adam's set level: 10
+test_cifar10_lenet_Adam logger is ready
+img_size@32 :: batch_size@128
+model@lenet :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+TRAIINING epoch@0 ::  acc@47.327  loss@1.698
+TESTING epoch@0 ::  acc@62.203  loss@1.388
+TRAIINING epoch@1 ::  acc@63.563  loss@1.390
+TESTING epoch@1 ::  acc@69.430  loss@1.247
+TRAIINING epoch@2 ::  acc@70.463  loss@1.250
+TESTING epoch@2 ::  acc@74.886  loss@1.141
+TRAIINING epoch@3 ::  acc@76.077  loss@1.140
+TESTING epoch@3 ::  acc@79.557  loss@1.056
+TRAIINING epoch@4 ::  acc@80.020  loss@1.056
+TESTING epoch@4 ::  acc@81.797  loss@1.006
+TRAIINING epoch@5 ::  acc@83.744  loss@0.976
+TESTING epoch@5 ::  acc@84.861  loss@0.936
+TRAIINING epoch@6 ::  acc@86.928  loss@0.911
+TESTING epoch@6 ::  acc@86.063  loss@0.923
+TRAIINING epoch@7 ::  acc@89.156  loss@0.861
+TESTING epoch@7 ::  acc@88.000  loss@0.881
+TRAIINING epoch@8 ::  acc@90.910  loss@0.821
+TESTING epoch@8 ::  acc@89.304  loss@0.856
+TRAIINING epoch@9 ::  acc@93.156  loss@0.775
+TESTING epoch@9 ::  acc@90.709  loss@0.830
+TRAIINING epoch@10 ::  acc@94.798  loss@0.737
+TESTING epoch@10 ::  acc@90.380  loss@0.825
+
+
+Sat Jan  9 07:50:33 2021
+test_cifar10_lenet_Adam's set level: 10
+test_cifar10_lenet_Adam logger is ready
+img_size@32 :: batch_size@128
+model@lenet :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+TRAIINING epoch@0 ::  acc@47.327  loss@1.700
+TESTING epoch@0 ::  acc@62.038  loss@1.389
+TRAIINING epoch@1 ::  acc@63.535  loss@1.391
+TESTING epoch@1 ::  acc@69.873  loss@1.250

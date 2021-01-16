@@ -1,0 +1,130 @@
+
+
+Wed Jan  6 12:45:19 2021
+aerial_baseline's set level: 10
+aerial_baseline logger is ready
+@ Training : AID has 4239 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Val      : AID has 471 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Training : NWPU-RESISC45 has 9450 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Val      : NWPU-RESISC45 has 1050 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Training : PatternNet has 9360 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Val      : PatternNet has 1040 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Training : UCMerced_LandUse has 1080 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Val      : UCMerced_LandUse has 120 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+img_size@32 :: batch_size@100
+model@lenet :: loss_fn@crossentropy :: optimizer@adam :: lr@0.001
+TRAIINING epoch@0 ::  acc@33.314  loss@1.880
+TESTING epoch@0 ::  acc@33.314  loss@1.880
+TRAIINING epoch@1 ::  acc@50.099  loss@1.439
+TESTING epoch@1 ::  acc@50.099  loss@1.439
+TRAIINING epoch@2 ::  acc@58.930  loss@1.217
+TESTING epoch@2 ::  acc@58.930  loss@1.217
+TRAIINING epoch@3 ::  acc@63.674  loss@1.086
+TESTING epoch@3 ::  acc@63.674  loss@1.086
+TRAIINING epoch@4 ::  acc@65.901  loss@1.026
+TESTING epoch@4 ::  acc@65.901  loss@1.026
+TRAIINING epoch@5 ::  acc@68.525  loss@0.942
+TESTING epoch@5 ::  acc@68.525  loss@0.942
+TRAIINING epoch@6 ::  acc@70.326  loss@0.888
+TESTING epoch@6 ::  acc@70.326  loss@0.888
+TRAIINING epoch@7 ::  acc@71.694  loss@0.851
+TESTING epoch@7 ::  acc@71.694  loss@0.851
+TRAIINING epoch@8 ::  acc@73.083  loss@0.801
+TESTING epoch@8 ::  acc@73.083  loss@0.801
+TRAIINING epoch@9 ::  acc@74.083  loss@0.780
+TESTING epoch@9 ::  acc@74.083  loss@0.780
+TRAIINING epoch@10 ::  acc@75.269  loss@0.729
+TESTING epoch@10 ::  acc@75.269  loss@0.729
+TRAIINING epoch@11 ::  acc@76.223  loss@0.708
+TESTING epoch@11 ::  acc@76.223  loss@0.708
+TRAIINING epoch@12 ::  acc@77.095  loss@0.685
+TESTING epoch@12 ::  acc@77.095  loss@0.685
+TRAIINING epoch@13 ::  acc@78.174  loss@0.643
+TESTING epoch@13 ::  acc@78.174  loss@0.643
+TRAIINING epoch@14 ::  acc@78.938  loss@0.627
+TESTING epoch@14 ::  acc@78.938  loss@0.627
+TRAIINING epoch@15 ::  acc@79.909  loss@0.598
+TESTING epoch@15 ::  acc@79.909  loss@0.598
+TRAIINING epoch@16 ::  acc@80.479  loss@0.582
+TESTING epoch@16 ::  acc@80.479  loss@0.582
+TRAIINING epoch@17 ::  acc@81.364  loss@0.550
+TESTING epoch@17 ::  acc@81.364  loss@0.550
+TRAIINING epoch@18 ::  acc@82.029  loss@0.528
+TESTING epoch@18 ::  acc@82.029  loss@0.528
+TRAIINING epoch@19 ::  acc@82.541  loss@0.516
+TESTING epoch@19 ::  acc@82.541  loss@0.516
+TRAIINING epoch@20 ::  acc@82.963  loss@0.500
+TESTING epoch@20 ::  acc@82.963  loss@0.500
+TRAIINING epoch@21 ::  acc@84.091  loss@0.464
+TESTING epoch@21 ::  acc@84.091  loss@0.464
+TRAIINING epoch@22 ::  acc@84.298  loss@0.457
+TESTING epoch@22 ::  acc@84.298  loss@0.457
+TRAIINING epoch@23 ::  acc@85.112  loss@0.433
+TESTING epoch@23 ::  acc@85.112  loss@0.433
+TRAIINING epoch@24 ::  acc@85.463  loss@0.415
+TESTING epoch@24 ::  acc@85.463  loss@0.415
+TRAIINING epoch@25 ::  acc@86.165  loss@0.400
+TESTING epoch@25 ::  acc@86.165  loss@0.400
+TRAIINING epoch@26 ::  acc@86.442  loss@0.389
+TESTING epoch@26 ::  acc@86.442  loss@0.389
+TRAIINING epoch@27 ::  acc@86.752  loss@0.375
+TESTING epoch@27 ::  acc@86.752  loss@0.375
+TRAIINING epoch@28 ::  acc@87.190  loss@0.360
+TESTING epoch@28 ::  acc@87.190  loss@0.360
+TRAIINING epoch@29 ::  acc@88.153  loss@0.342
+TESTING epoch@29 ::  acc@88.153  loss@0.342
+TRAIINING epoch@30 ::  acc@88.273  loss@0.328
+TESTING epoch@30 ::  acc@88.273  loss@0.328
+TRAIINING epoch@31 ::  acc@88.950  loss@0.312
+TESTING epoch@31 ::  acc@88.950  loss@0.312
+TRAIINING epoch@32 ::  acc@89.149  loss@0.306
+TESTING epoch@32 ::  acc@89.149  loss@0.306
+TRAIINING epoch@33 ::  acc@89.236  loss@0.298
+TESTING epoch@33 ::  acc@89.236  loss@0.298
+TRAIINING epoch@34 ::  acc@90.198  loss@0.274
+TESTING epoch@34 ::  acc@90.198  loss@0.274
+TRAIINING epoch@35 ::  acc@90.219  loss@0.274
+TESTING epoch@35 ::  acc@90.219  loss@0.274
+TRAIINING epoch@36 ::  acc@90.711  loss@0.257
+TESTING epoch@36 ::  acc@90.711  loss@0.257
+TRAIINING epoch@37 ::  acc@90.975  loss@0.251
+TESTING epoch@37 ::  acc@90.975  loss@0.251
+TRAIINING epoch@38 ::  acc@91.599  loss@0.231
+TESTING epoch@38 ::  acc@91.599  loss@0.231
+TRAIINING epoch@39 ::  acc@91.719  loss@0.225
+TESTING epoch@39 ::  acc@91.719  loss@0.225
+TRAIINING epoch@40 ::  acc@91.847  loss@0.220
+TESTING epoch@40 ::  acc@91.847  loss@0.220
+TRAIINING epoch@41 ::  acc@92.293  loss@0.209
+TESTING epoch@41 ::  acc@92.293  loss@0.209
+TRAIINING epoch@42 ::  acc@92.413  loss@0.205
+TESTING epoch@42 ::  acc@92.413  loss@0.205
+TRAIINING epoch@43 ::  acc@92.579  loss@0.200
+TESTING epoch@43 ::  acc@92.579  loss@0.200
+TRAIINING epoch@44 ::  acc@92.740  loss@0.198
+TESTING epoch@44 ::  acc@92.740  loss@0.198
+TRAIINING epoch@45 ::  acc@92.756  loss@0.194
+TESTING epoch@45 ::  acc@92.756  loss@0.194
+TRAIINING epoch@46 ::  acc@92.963  loss@0.188
+TESTING epoch@46 ::  acc@92.963  loss@0.188
+TRAIINING epoch@47 ::  acc@93.459  loss@0.176
+TESTING epoch@47 ::  acc@93.459  loss@0.176
+TRAIINING epoch@48 ::  acc@93.864  loss@0.166
+TESTING epoch@48 ::  acc@93.864  loss@0.166
+TRAIINING epoch@49 ::  acc@93.826  loss@0.166
+TESTING epoch@49 ::  acc@93.826  loss@0.166
+
+
+Fri Jan  8 01:58:45 2021
+aerial_baseline's set level: 10
+aerial_baseline logger is ready
+@ Training : AID has 4239 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Val      : AID has 471 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Training : NWPU-RESISC45 has 9450 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Val      : NWPU-RESISC45 has 1050 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Training : PatternNet has 9360 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Val      : PatternNet has 1040 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Training : UCMerced_LandUse has 1080 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Val      : UCMerced_LandUse has 120 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+img_size@32 :: batch_size@100
+model@lenet :: loss_fn@crossentropy :: optimizer@adam :: lr@0.001

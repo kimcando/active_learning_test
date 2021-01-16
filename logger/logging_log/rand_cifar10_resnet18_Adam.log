@@ -1,0 +1,156 @@
+
+
+Fri Jan  8 15:59:07 2021
+rand_cifar10_resnet18_Adam's set level: 10
+rand_cifar10_resnet18_Adam logger is ready
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@resnet18 :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @1000
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+ >> # of data @100 || total train time @3.901s || test acc@0.100
+ >> # of data @1100 || total train time @6.647s || test acc@0.305
+ >> # of data @2100 || total train time @11.464s || test acc@0.324
+ >> # of data @3100 || total train time @12.130s || test acc@0.342
+ >> # of data @4100 || total train time @19.725s || test acc@0.356
+ >> # of data @5100 || total train time @20.400s || test acc@0.370
+ >> # of data @6100 || total train time @22.466s || test acc@0.395
+ >> # of data @7100 || total train time @29.085s || test acc@0.404
+
+
+Fri Jan  8 16:02:03 2021
+rand_cifar10_resnet18_Adam's set level: 10
+rand_cifar10_resnet18_Adam logger is ready
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@resnet18 :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @1000
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+ >> # of data @100 || total train time @3.746s || test acc@0.100
+ >> # of data @1100 || total train time @7.205s || test acc@0.305
+ >> # of data @2100 || total train time @10.710s || test acc@0.324
+ >> # of data @3100 || total train time @12.293s || test acc@0.342
+
+
+Fri Jan  8 16:03:36 2021
+rand_cifar10_resnet18_Adam's set level: 10
+rand_cifar10_resnet18_Adam logger is ready
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@resnet18 :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @1000
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+ >> # of data @100 || total train time @4.042s || test acc@0.100
+ >> # of data @1100 || total train time @6.604s || test acc@0.305
+ >> # of data @2100 || total train time @12.518s || test acc@0.324
+ >> # of data @3100 || total train time @12.321s || test acc@0.342
+ >> # of data @4100 || total train time @18.860s || test acc@0.356
+ >> # of data @5100 || total train time @20.512s || test acc@0.370
+ >> # of data @6100 || total train time @22.422s || test acc@0.395
+ >> # of data @7100 || total train time @28.134s || test acc@0.404
+
+
+Fri Jan  8 16:06:42 2021
+rand_cifar10_resnet18_Adam's set level: 10
+rand_cifar10_resnet18_Adam logger is ready
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@resnet18 :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @1000
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+ >> # of data @100 || total train time @3.951s || test acc@0.100
+ >> # of data @1100 || total train time @6.996s || test acc@0.305
+ >> # of data @2100 || total train time @11.294s || test acc@0.324
+ >> # of data @3100 || total train time @13.660s || test acc@0.342
+ >> # of data @4100 || total train time @19.074s || test acc@0.356
+ >> # of data @5100 || total train time @21.722s || test acc@0.370
+
+
+Fri Jan  8 16:08:36 2021
+rand_cifar10_resnet18_Adam's set level: 10
+rand_cifar10_resnet18_Adam logger is ready
+>> Mode @ rand
+ >> img_size@3 :: training_bs @128 :: testing_bs @1000
+ >> model@resnet18 :: loss_fn@crossentropy :: optimizer@Adam :: lr@0.001
+ >> # of initial labeled pool :: @100 & # of querying exmaples :: @1000
+ >> # of unlabeled pool pool :: @49900
+ >> # of testing pool :: @10000
+ >> # of data @100 || total train time @3.709s || test acc@0.100
+ >> # of data @1100 || total train time @6.265s || test acc@0.305
+ >> # of data @2100 || total train time @10.331s || test acc@0.324
+ >> # of data @3100 || total train time @10.316s || test acc@0.342
+ >> # of data @4100 || total train time @14.193s || test acc@0.356
+ >> # of data @5100 || total train time @17.545s || test acc@0.370
+ >> # of data @6100 || total train time @19.137s || test acc@0.395
+ >> # of data @7100 || total train time @25.200s || test acc@0.404
+ >> # of data @8100 || total train time @27.848s || test acc@0.407
+ >> # of data @9100 || total train time @27.003s || test acc@0.416
+ >> # of data @10100 || total train time @33.634s || test acc@0.410
+ >> # of data @11100 || total train time @37.057s || test acc@0.445
+ >> # of data @12100 || total train time @35.685s || test acc@0.424
+ >> # of data @13100 || total train time @43.220s || test acc@0.431
+ >> # of data @14100 || total train time @47.082s || test acc@0.422
+ >> # of data @15100 || total train time @44.659s || test acc@0.462
+ >> # of data @16100 || total train time @55.558s || test acc@0.452
+ >> # of data @17100 || total train time @59.317s || test acc@0.465
+ >> # of data @18100 || total train time @62.844s || test acc@0.462
+ >> # of data @19100 || total train time @60.552s || test acc@0.472
+ >> # of data @20100 || total train time @71.372s || test acc@0.456
+ >> # of data @21100 || total train time @62.403s || test acc@0.485
+ >> # of data @22100 || total train time @65.526s || test acc@0.504
+ >> # of data @23100 || total train time @77.353s || test acc@0.505
+ >> # of data @24100 || total train time @74.639s || test acc@0.500
+ >> # of data @25100 || total train time @95.956s || test acc@0.504
+ >> # of data @26100 || total train time @92.257s || test acc@0.503
+ >> # of data @27100 || total train time @90.640s || test acc@0.523
+ >> # of data @28100 || total train time @94.298s || test acc@0.532
+ >> # of data @29100 || total train time @107.282s || test acc@0.503
+ >> # of data @30100 || total train time @106.362s || test acc@0.514
+ >> # of data @31100 || total train time @95.872s || test acc@0.517
+ >> # of data @32100 || total train time @111.962s || test acc@0.532
+ >> # of data @33100 || total train time @111.685s || test acc@0.525
+ >> # of data @34100 || total train time @123.945s || test acc@0.524
+ >> # of data @35100 || total train time @122.174s || test acc@0.553
+ >> # of data @36100 || total train time @200.667s || test acc@0.530
+ >> # of data @37100 || total train time @142.595s || test acc@0.541
+ >> # of data @38100 || total train time @126.819s || test acc@0.557
+ >> # of data @39100 || total train time @194.924s || test acc@0.547
+ >> # of data @40100 || total train time @226.815s || test acc@0.531
+ >> # of data @41100 || total train time @252.707s || test acc@0.559
+ >> # of data @42100 || total train time @248.705s || test acc@0.562
+ >> # of data @43100 || total train time @228.850s || test acc@0.566
+ >> # of data @44100 || total train time @271.384s || test acc@0.539
+ >> # of data @45100 || total train time @262.233s || test acc@0.576
+ >> # of data @46100 || total train time @254.302s || test acc@0.564
+ >> # of data @47100 || total train time @273.850s || test acc@0.585
+ >> # of data @48100 || total train time @363.199s || test acc@0.571
+ >> # of data @49100 || total train time @299.866s || test acc@0.595
+
+
+Sat Jan  9 07:09:31 2021
+rand_cifar10_resnet18_Adam's set level: 10
+rand_cifar10_resnet18_Adam logger is ready
+
+
+Sat Jan  9 07:09:56 2021
+rand_cifar10_resnet18_Adam's set level: 10
+rand_cifar10_resnet18_Adam logger is ready
+
+
+Sat Jan  9 07:10:23 2021
+rand_cifar10_resnet18_Adam's set level: 10
+rand_cifar10_resnet18_Adam logger is ready
+
+
+Sat Jan  9 07:11:08 2021
+rand_cifar10_resnet18_Adam's set level: 10
+rand_cifar10_resnet18_Adam logger is ready
+
+
+Sat Jan  9 07:12:17 2021
+rand_cifar10_resnet18_Adam's set level: 10
+rand_cifar10_resnet18_Adam logger is ready

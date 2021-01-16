@@ -1,0 +1,65 @@
+
+
+Wed Jan  6 08:25:30 2021
+aerial's set level: 10
+aerial logger is ready
+@ Training : AID has 4239 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Val      : AID has 471 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Training : NWPU-RESISC45 has 9450 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Val      : NWPU-RESISC45 has 1050 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Training : PatternNet has 9360 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Val      : PatternNet has 1040 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Training : UCMerced_LandUse has 1080 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+@ Val      : UCMerced_LandUse has 120 images and each has ['airfield', 'anchorage', 'beach', 'dense_residential', 'farm', 'flyover', 'forest', 'game_space', 'parking_space', 'river', 'sparse_residential', 'storage_cisterns']
+img_size@32 :: batch_size@100
+model@lenet :: loss_fn@crossentropy :: optimizer@adam :: lr@0.001
+epoch@0 ::  acc@31.657  loss@1.929
+epoch@1 ::  acc@53.388  loss@1.355
+epoch@2 ::  acc@60.731  loss@1.183
+epoch@3 ::  acc@64.570  loss@1.067
+epoch@4 ::  acc@66.847  loss@0.990
+epoch@5 ::  acc@68.785  loss@0.938
+epoch@6 ::  acc@70.847  loss@0.876
+epoch@7 ::  acc@72.062  loss@0.840
+epoch@8 ::  acc@73.492  loss@0.790
+epoch@9 ::  acc@74.488  loss@0.769
+epoch@10 ::  acc@75.946  loss@0.713
+epoch@11 ::  acc@76.959  loss@0.689
+epoch@12 ::  acc@77.950  loss@0.660
+epoch@13 ::  acc@78.537  loss@0.640
+epoch@14 ::  acc@79.302  loss@0.620
+epoch@15 ::  acc@79.996  loss@0.586
+epoch@16 ::  acc@80.988  loss@0.559
+epoch@17 ::  acc@81.488  loss@0.544
+epoch@18 ::  acc@82.182  loss@0.525
+epoch@19 ::  acc@83.062  loss@0.495
+epoch@20 ::  acc@83.529  loss@0.476
+epoch@21 ::  acc@84.025  loss@0.464
+epoch@22 ::  acc@84.335  loss@0.452
+epoch@23 ::  acc@84.831  loss@0.437
+epoch@24 ::  acc@85.157  loss@0.417
+epoch@25 ::  acc@85.983  loss@0.399
+epoch@26 ::  acc@87.128  loss@0.371
+epoch@27 ::  acc@87.207  loss@0.361
+epoch@28 ::  acc@87.529  loss@0.358
+epoch@29 ::  acc@87.822  loss@0.344
+epoch@30 ::  acc@88.426  loss@0.326
+epoch@31 ::  acc@89.281  loss@0.302
+epoch@32 ::  acc@89.140  loss@0.303
+epoch@33 ::  acc@89.178  loss@0.296
+epoch@34 ::  acc@90.145  loss@0.276
+epoch@35 ::  acc@90.488  loss@0.258
+epoch@36 ::  acc@90.649  loss@0.258
+epoch@37 ::  acc@91.186  loss@0.242
+epoch@38 ::  acc@91.285  loss@0.238
+epoch@39 ::  acc@91.847  loss@0.223
+epoch@40 ::  acc@91.690  loss@0.221
+epoch@41 ::  acc@92.017  loss@0.214
+epoch@42 ::  acc@92.442  loss@0.209
+epoch@43 ::  acc@92.822  loss@0.198
+epoch@44 ::  acc@92.599  loss@0.197
+epoch@45 ::  acc@92.921  loss@0.190
+epoch@46 ::  acc@93.041  loss@0.189
+epoch@47 ::  acc@93.372  loss@0.180
+epoch@48 ::  acc@93.599  loss@0.172
+epoch@49 ::  acc@93.591  loss@0.174
