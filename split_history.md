@@ -1,4 +1,3 @@
-(argparse) https://stackoverflow.com/questions/15753701/how-can-i-pass-a-list-as-a-command-line-argument-with-argparse
 python imbalance_train.py --ratio "1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0" --split_order=0
 python imbalance_train.py --ratio "1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0" --split_order='0_1'
 
