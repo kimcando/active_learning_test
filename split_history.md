@@ -1,5 +1,8 @@
+```
 python imbalance_train.py --ratio "1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0" --split_order=0
+
 python imbalance_train.py --ratio "1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0" --split_order='0_1'
+```
 
 ### 0115
 ```nohup python imbalance_train.py --ratio "1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0" --split_order='balance1' > 1.txt
